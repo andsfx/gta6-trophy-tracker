@@ -3,23 +3,29 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA VI trophy checklist</title>
+<title>GTA VI - Trophy Guide &amp; Tracker</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>GTA VI trophy checklist</h1>
-  <p id="progress">0 of 55 earned</p>
-</header>
-<div class="controls">
-  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
-  <button id="export" type="button">Export progress</button>
-  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
+<div class="app">
+  <header class="top">
+    <a class="brand" href="#tracker">
+      <span class="brand-main">GTA<span class="brand-vi">VI</span></span>
+      <span class="brand-sub">Trophy Guide</span>
+    </a>
+    <div class="brand-tag">Platinum roadmap &middot; Leonida edition</div>
+    <nav class="nav">
+      <a href="#tracker" class="nav-link" data-nav="tracker">Tracker</a>
+      <a href="#roadmap" class="nav-link" data-nav="roadmap">Roadmap</a>
+      <a href="#settings" class="nav-link" data-nav="settings">Settings</a>
+    </nav>
+  </header>
+  <main id="view" class="view"></main>
+  <footer class="foot">
+    <span>Offline guide &middot; 55 official trophies</span>
+    <span class="foot-right">Save your progress in this browser &middot; export anytime</span>
+  </footer>
 </div>
-<table>
-  <thead><tr><th>Earned</th><th>Trophy</th><th>Grade</th><th>How to get it</th></tr></thead>
-  <tbody id="rows"></tbody>
-</table>
 <script type="module" src="app.js"></script>
 </body>
 </html>

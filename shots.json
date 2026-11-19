@@ -1,5 +1,6 @@
 [
-  { "file": "1-checklist.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-silver.jpg", "path": "/", "grade": "silver", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-bronze.jpg", "path": "/", "grade": "bronze", "scroll": 1400, "viewport": { "width": 1280, "height": 800 } }
+  { "file": "1-tracker.jpg", "path": "/", "query": "?shot=1", "hash": "#tracker", "viewport": { "width": 1280, "height": 720 }, "note": "Cover: the tracker in demo state (first 6 trophies earned), showing the stats strip, progress bar, filter row, grade colours, kind tags, MISSABLE badges and checkboxes." },
+  { "file": "2-roadmap.jpg", "path": "/", "query": "?shot=1", "hash": "#roadmap", "viewport": { "width": 1280, "height": 720 }, "note": "The 8-stage roadmap with the missable warnings summary box on top." },
+  { "file": "3-guide.jpg", "path": "/", "query": "?shot=1", "hash": "#guide-29", "viewport": { "width": 1280, "height": 720 }, "note": "A missable story trophy's guide page (Fair Game): numbered steps, citations and the MISSABLE badge." },
+  { "file": "4-settings.jpg", "path": "/", "query": "?shot=1", "hash": "#settings", "viewport": { "width": 1280, "height": 720 }, "note": "Settings with the spoiler toggle ON: hidden story trophies render as ??? plus export, import and reset controls." }
 ]

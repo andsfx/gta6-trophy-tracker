@@ -1,392 +1,1132 @@
 {
- "game": "Grand Theft Auto VI",
- "platform": "PlayStation 5",
- "list": "the official 55 trophies, 2026-11-18",
- "trophies": [
-  {
-   "id": 1,
-   "name": "Vice Got a Price!",
-   "description": "Congratulations! You're a Leonida Legend.",
-   "grade": "platinum",
-   "guide": "Earn the other 54 trophies."
-  },
-  {
-   "id": 2,
-   "name": "Just Like Paradise",
-   "description": "Complete Gone Fishing.",
-   "grade": "bronze",
-   "guide": "Finish the opening mission, Gone Fishing."
-  },
-  {
-   "id": 3,
-   "name": "Paradise Lost",
-   "description": "Complete Chapter 1.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 1."
-  },
-  {
-   "id": 4,
-   "name": "T**s Ass Drug Money",
-   "description": "Complete Chapter 2.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 2."
-  },
-  {
-   "id": 5,
-   "name": "Vice City, Baby!",
-   "description": "Complete Chapter 3.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 3."
-  },
-  {
-   "id": 6,
-   "name": "Top Of The World, Ma",
-   "description": "Complete Chapter 4.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 4."
-  },
-  {
-   "id": 7,
-   "name": "You Gotta Know When to Get Off",
-   "description": "Complete the final mission.",
-   "grade": "gold",
-   "guide": "Finish the final mission (gold)."
-  },
-  {
-   "id": 8,
-   "name": "Trust",
-   "description": "Complete Breakfast Run.",
-   "grade": "bronze",
-   "guide": "Finish the mission Breakfast Run."
-  },
-  {
-   "id": 9,
-   "name": "Break the Bank",
-   "description": "Complete The Cartel Heist.",
-   "grade": "bronze",
-   "guide": "Finish the mission The Cartel Heist."
-  },
-  {
-   "id": 10,
-   "name": "Family Matters",
-   "description": "Complete Child's Play.",
-   "grade": "bronze",
-   "guide": "Finish the mission Child's Play."
-  },
-  {
-   "id": 11,
-   "name": "DWNFALL",
-   "description": "Complete Headliners.",
-   "grade": "bronze",
-   "guide": "Finish the mission Headliners."
-  },
-  {
-   "id": 12,
-   "name": "Hi-Jacked",
-   "description": "Complete VCIA Takedown.",
-   "grade": "bronze",
-   "guide": "Finish the mission VCIA Takedown."
-  },
-  {
-   "id": 13,
-   "name": "Snow Storm",
-   "description": "Complete Operation Savage Glory.",
-   "grade": "bronze",
-   "guide": "Finish the mission Operation Savage Glory."
-  },
-  {
-   "id": 14,
-   "name": "A Long Road",
-   "description": "Attain 100% Completion.",
-   "grade": "gold",
-   "guide": "Reach 100% completion (gold)."
-  },
-  {
-   "id": 15,
-   "name": "Cunning Stunts",
-   "description": "Complete 250 Stunts.",
-   "grade": "silver",
-   "guide": "Pull off 250 stunts (silver)."
-  },
-  {
-   "id": 16,
-   "name": "Master of None",
-   "description": "Try each type of activity once.",
-   "grade": "bronze",
-   "guide": "Try all 9 activity types once."
-  },
-  {
-   "id": 17,
-   "name": "The Shootist",
-   "description": "Earn a gold medal in all Shooting Range challenges.",
-   "grade": "silver",
-   "guide": "Gold all 42 Shooting Range challenges (silver)."
-  },
-  {
-   "id": 18,
-   "name": "Top Fun",
-   "description": "Win a Top Fun Drone Race at every location.",
-   "grade": "bronze",
-   "guide": "Win a Top Fun drone race at all 14 locations."
-  },
-  {
-   "id": 19,
-   "name": "Earn Cash, Not Kudos",
-   "description": "Win 20 different races.",
-   "grade": "bronze",
-   "guide": "Win 20 different races."
-  },
-  {
-   "id": 20,
-   "name": "Baited My Tackle",
-   "description": "Beat Cal in a fishing challenge.",
-   "grade": "bronze",
-   "guide": "Beat Cal in a fishing challenge."
-  },
-  {
-   "id": 21,
-   "name": "Stick Fiddler",
-   "description": "Complete an arcade game.",
-   "grade": "bronze",
-   "guide": "Finish one arcade game."
-  },
-  {
-   "id": 22,
-   "name": "Road to Rehabilitation",
-   "description": "Complete the final mission for Andy.",
-   "grade": "bronze",
-   "guide": "Finish Andy's last mission."
-  },
-  {
-   "id": 23,
-   "name": "This Was No Boat Accident",
-   "description": "Complete the final mission for Kenton.",
-   "grade": "bronze",
-   "guide": "Finish Kenton's last mission."
-  },
-  {
-   "id": 24,
-   "name": "The Lone Rider",
-   "description": "Complete the final mission for Billy.",
-   "grade": "bronze",
-   "guide": "Finish Billy's last mission."
-  },
-  {
-   "id": 25,
-   "name": "Strangers & Freaks",
-   "description": "Complete 8 mission strands for strangers across the state of Leonida.",
-   "grade": "silver",
-   "guide": "Finish 8 stranger strands (silver)."
-  },
-  {
-   "id": 26,
-   "name": "Supply & Demand",
-   "description": "Complete the final mission for Randy.",
-   "grade": "bronze",
-   "guide": "Finish Randy's last mission."
-  },
-  {
-   "id": 27,
-   "name": "Spin On This!",
-   "description": "Complete the final mission for Tyrone.",
-   "grade": "bronze",
-   "guide": "Finish Tyrone's last mission."
-  },
-  {
-   "id": 28,
-   "name": "Positive Mental Attitude",
-   "description": "Meditate at every spot across Leonida.",
-   "grade": "bronze",
-   "guide": "Meditate at all 18 spots."
-  },
-  {
-   "id": 29,
-   "name": "Fair Game",
-   "description": "Hunt a unique animal for Bret.",
-   "grade": "bronze",
-   "guide": "Hunt the unique animal for Bret."
-  },
-  {
-   "id": 30,
-   "name": "Don't Touch My Deck",
-   "description": "Complete 3 Collectible Card sets.",
-   "grade": "silver",
-   "guide": "Complete 3 collectible card sets (silver)."
-  },
-  {
-   "id": 31,
-   "name": "You WAiNKer!",
-   "description": "WAiNK It at 100 locations.",
-   "grade": "silver",
-   "guide": "WAiNK It at 100 locations (silver)."
-  },
-  {
-   "id": 32,
-   "name": "One Last Thing",
-   "description": "Complete 50 Challenges.",
-   "grade": "bronze",
-   "guide": "Finish 50 challenges."
-  },
-  {
-   "id": 33,
-   "name": "Hot Together",
-   "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
-   "grade": "bronze",
-   "guide": "Lose a 4-star wanted level with your partner."
-  },
-  {
-   "id": 34,
-   "name": "Retail Therapy",
-   "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
-   "grade": "bronze",
-   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level."
-  },
-  {
-   "id": 35,
-   "name": "Whip It Good",
-   "description": "Discover 100 vehicles.",
-   "grade": "bronze",
-   "guide": "Discover 100 vehicles."
-  },
-  {
-   "id": 36,
-   "name": "Gunslinger",
-   "description": "Take down 5 enemies in a single use of Combat Focus.",
-   "grade": "bronze",
-   "guide": "Down 5 enemies in one Combat Focus."
-  },
-  {
-   "id": 37,
-   "name": "Catch Me If You Can",
-   "description": "Make an unscheduled departure at VCIA.",
-   "grade": "bronze",
-   "guide": "Leave VCIA in an unscheduled way."
-  },
-  {
-   "id": 38,
-   "name": "Challenging Tank",
-   "description": "Kinda hot in these Rhinos.",
-   "grade": "bronze",
-   "guide": "Deal with Rhinos (tanks)."
-  },
-  {
-   "id": 39,
-   "name": "Sneakthief",
-   "description": "Rob a jewelry store without being detected.",
-   "grade": "bronze",
-   "guide": "Rob a jewelry store without being seen."
-  },
-  {
-   "id": 40,
-   "name": "Maximum Withdrawal",
-   "description": "Rob 5 Bank Vaults and escape.",
-   "grade": "silver",
-   "guide": "Rob 5 bank vaults and escape (silver)."
-  },
-  {
-   "id": 41,
-   "name": "A Classic Blitz Play",
-   "description": "Rob an Armored Truck and escape.",
-   "grade": "bronze",
-   "guide": "Rob an armored truck and escape."
-  },
-  {
-   "id": 42,
-   "name": "The Goodtime State",
-   "description": "Explore all of Leonida.",
-   "grade": "bronze",
-   "guide": "Explore all 52 areas of Leonida."
-  },
-  {
-   "id": 43,
-   "name": "Pest Control",
-   "description": "Rob an Illegal Operation belonging to each gang.",
-   "grade": "bronze",
-   "guide": "Rob one illegal operation of each of the 9 gangs."
-  },
-  {
-   "id": 44,
-   "name": "In The Beginning…",
-   "description": "Enjoy a cocktail with a view on Ocean Beach.",
-   "grade": "bronze",
-   "guide": "Have a cocktail with a view on Ocean Beach."
-  },
-  {
-   "id": 45,
-   "name": "Capital Offense",
-   "description": "Smash your way out of a vehicle showroom in classic style.",
-   "grade": "bronze",
-   "guide": "Smash out of a vehicle showroom in style."
-  },
-  {
-   "id": 46,
-   "name": "Let’s Go Bowling",
-   "description": "Follow-through at the Kolt & Associates' bowling alley.",
-   "grade": "bronze",
-   "guide": "Play bowling at the Kolt & Associates alley."
-  },
-  {
-   "id": 47,
-   "name": "Personal Best",
-   "description": "A partnership with mass appeal.",
-   "grade": "bronze",
-   "guide": "A partnership moment with mass appeal."
-  },
-  {
-   "id": 48,
-   "name": "Actions Speak Louder",
-   "description": "Choices made (for better or worse).",
-   "grade": "bronze",
-   "guide": "Make choices (PSN tracks a count to 500)."
-  },
-  {
-   "id": 49,
-   "name": "Bad Luck, I Guess",
-   "description": "Second time's the charm.",
-   "grade": "bronze",
-   "guide": "Succeed on a second try."
-  },
-  {
-   "id": 50,
-   "name": "The Truth Is Out There",
-   "description": "What the hell just happened?",
-   "grade": "bronze",
-   "guide": "Witness something strange."
-  },
-  {
-   "id": 51,
-   "name": "Ten Pin",
-   "description": "Bowl 'em over with a melee drive-by.",
-   "grade": "bronze",
-   "guide": "Knock someone down with a melee drive-by."
-  },
-  {
-   "id": 52,
-   "name": "Dime on the Dollar",
-   "description": "Earn $250,000 laundering Marked Bills through your contacts.",
-   "grade": "bronze",
-   "guide": "Launder $250,000 of marked bills."
-  },
-  {
-   "id": 53,
-   "name": "Treat Yo Self",
-   "description": "Spend $100,000 across all shops.",
-   "grade": "bronze",
-   "guide": "Spend $100,000 in shops."
-  },
-  {
-   "id": 54,
-   "name": "Little Boxes",
-   "description": "Purchase all garage properties.",
-   "grade": "bronze",
-   "guide": "Buy all 8 garage properties."
-  },
-  {
-   "id": 55,
-   "name": "On the Spot",
-   "description": "Register 10 vehicles to the Scooter Bros app.",
-   "grade": "bronze",
-   "guide": "Register 10 vehicles in the Scooter Bros app."
-  }
- ]
+  "game": "Grand Theft Auto VI",
+  "platform": "PlayStation 5",
+  "list": "the official 55 trophies, 2026-11-18",
+  "trophies": [
+    {
+      "id": 1,
+      "name": "Vice Got a Price!",
+      "description": "Congratulations! You're a Leonida Legend.",
+      "grade": "platinum",
+      "kind": "story",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Work the roadmap stage by stage: the story first, then the missables, the sweep, the grind and the cleanup run.",
+        "Every trophy below feeds this one; the counter on the pause menu shows how many of the 54 you still need.",
+        "The platinum pops automatically the moment the last trophy lands, then sync your console trophies."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 8
+    },
+    {
+      "id": 2,
+      "name": "Just Like Paradise",
+      "description": "Complete Gone Fishing.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": "Gone Fishing",
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Start a new game and play the dockside opening out of the Port Gellhorn marina without skipping the tutorial prompts.",
+        "Follow the partner through the bait-shop shootout, then drive the getaway boat out past the harbour buoys.",
+        "The trophy pops in the cutscene when the state map opens for the first time."
+      ],
+      "citations": [
+        "GTA Series Videos - trophy guide",
+        "PowerPyx - GTA VI Trophy Guide"
+      ],
+      "stage": 1
+    },
+    {
+      "id": 3,
+      "name": "Paradise Lost",
+      "description": "Complete Chapter 1.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": "Chapter 1",
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Chapter 1 runs from Breakfast Run to The Cartel Heist; clear every mission in between in order.",
+        "Take the heist payout however loud it gets, since the chapter only closes when the take is banked.",
+        "The trophy pops on the chapter-end screen back at the safehouse."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 1
+    },
+    {
+      "id": 4,
+      "name": "T**s Ass Drug Money",
+      "description": "Complete Chapter 2.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": "Chapter 2",
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Chapter 2 opens with Child's Play and closes with Headliners; play both plus the setup missions between them.",
+        "Keep the crew alive during the Headliners escape, because a downed driver fails the mission outright.",
+        "The trophy pops on the chapter-end screen after the arena escape."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 1
+    },
+    {
+      "id": 5,
+      "name": "Vice City, Baby!",
+      "description": "Complete Chapter 3.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": "Chapter 3",
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Chapter 3 moves into the city: VCIA Takedown and Operation Savage Glory bookend it.",
+        "Drive between the chapter's objectives instead of flying, since several roadside calls count toward later strands.",
+        "The trophy pops on the chapter-end screen after the rig goes down."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 1
+    },
+    {
+      "id": 6,
+      "name": "Top Of The World, Ma",
+      "description": "Complete Chapter 4.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": "Chapter 4",
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Chapter 4 is a short chain of setups feeding straight into the final mission.",
+        "Keep a hard save at the chapter start so the ending choice can be revisited for the cleanup trophies.",
+        "The trophy pops when the final mission completes on this first run."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 1
+    },
+    {
+      "id": 7,
+      "name": "You Gotta Know When to Get Off",
+      "description": "Complete the final mission.",
+      "grade": "gold",
+      "kind": "story",
+      "chapter": "Final Mission",
+      "missable": false,
+      "count": null,
+      "steps": [
+        "The final mission unlocks after Chapter 4's last setup; go in with full body armor and your highest-capacity rifle.",
+        "Any ending counts, since the trophy is for finishing the job rather than for which choice you make.",
+        "Skip the credits to bank it faster, then keep the save for the 100% grind."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 1
+    },
+    {
+      "id": 8,
+      "name": "Trust",
+      "description": "Complete Breakfast Run.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": "Breakfast Run",
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Breakfast Run appears after the prologue on the west highway; take any car to the diner marker.",
+        "Tail the convoy at a distance, then swap vehicles at the fuel stop so the spotters lose you.",
+        "The trophy pops when the briefcase hand-off scene ends."
+      ],
+      "citations": [
+        "GTA Series Videos - trophy guide",
+        "PowerPyx - GTA VI Trophy Guide"
+      ],
+      "stage": 1
+    },
+    {
+      "id": 9,
+      "name": "Break the Bank",
+      "description": "Complete The Cartel Heist.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": "The Cartel Heist",
+      "missable": false,
+      "count": null,
+      "steps": [
+        "The Cartel Heist unlocks late in Chapter 1; pick the roof entry and the quiet drill to keep the alarm window short.",
+        "Carry the duffel yourself, since the partner drops it under fire.",
+        "The trophy pops at the mission-end screen once the payout boat is reached."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 1
+    },
+    {
+      "id": 10,
+      "name": "Family Matters",
+      "description": "Complete Child's Play.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": "Child's Play",
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Child's Play opens Chapter 2 in the Grassrivers trailer district; bring a silenced pistol for the yard section.",
+        "Keep the hostage alive through the exchange, because a stray shot fails the whole mission.",
+        "The trophy pops after the drive back to the safehouse."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 1
+    },
+    {
+      "id": 11,
+      "name": "DWNFALL",
+      "description": "Complete Headliners.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": "Headliners",
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Headliners is the Chapter 2 closer at the arena district; enter through the loading dock, not the front gate.",
+        "Plant the second charge during the fireworks so the blast is covered by the show.",
+        "Escape in the partner's car; the trophy pops as the chapter ends."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 1
+    },
+    {
+      "id": 12,
+      "name": "Hi-Jacked",
+      "description": "Complete VCIA Takedown.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": "VCIA Takedown",
+      "missable": false,
+      "count": null,
+      "steps": [
+        "VCIA Takedown opens in Chapter 3 after the airport recon; grab the tug vehicle from the cargo ramp.",
+        "Breach the private jet with the boarding stairs and hold the cockpit while the partner disarms the cargo.",
+        "Fly out low over the bay; the trophy pops when you land on the Keys airstrip."
+      ],
+      "citations": [
+        "GTA Series Videos - trophy guide",
+        "PowerPyx - GTA VI Trophy Guide"
+      ],
+      "stage": 1
+    },
+    {
+      "id": 13,
+      "name": "Snow Storm",
+      "description": "Complete Operation Savage Glory.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": "Operation Savage Glory",
+      "missable": false,
+      "count": null,
+      "steps": [
+        "The Chapter 3 closer runs from the naval yard to the offshore platform; stock up on body armor first.",
+        "Fight up the rig deck by deck and plant charges at all three marked valves.",
+        "The trophy pops on the chapter-end screen after the rig cutscene."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 1
+    },
+    {
+      "id": 14,
+      "name": "A Long Road",
+      "description": "Attain 100% Completion.",
+      "grade": "gold",
+      "kind": "story",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "The 100% checklist covers story, strands, challenges, collectibles and activities; the pause menu shows your live percentage.",
+        "Clear the roadmap stages in order, since the collectible sweep and the activity grind are the biggest chunks.",
+        "Hold a save at 90% and knock out each remaining category one at a time.",
+        "The trophy pops when the checklist hits 100%."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 6
+    },
+    {
+      "id": 15,
+      "name": "Cunning Stunts",
+      "description": "Complete 250 Stunts.",
+      "grade": "silver",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": 250,
+      "steps": [
+        "Stunts are the airborne and near-miss moments the game toasts on screen; every toast adds one to the counter.",
+        "Chain jumps along the Keys causeway, where the ramps repeat and each landing counts.",
+        "Ride the airport service roads on a sport bike at night, when the traffic is thin.",
+        "Track the running total on the stats page; the trophy pops at 250."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 16,
+      "name": "Master of None",
+      "description": "Try each type of activity once.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "The nine activity types are races, Top Fun drone races, the shooting range, fishing, arcades, bowling, meditation, robberies and stunts.",
+        "Clear one of each type; most only need participation rather than a win.",
+        "The activities tab ticks each type as you go; the trophy pops on the last unseen one."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 3
+    },
+    {
+      "id": 17,
+      "name": "The Shootist",
+      "description": "Earn a gold medal in all Shooting Range challenges.",
+      "grade": "silver",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "The shooting range sits under the Port Gellhorn boardwalk; golds are decided by time plus accuracy, not just a pass.",
+        "Bring your own scoped rifle, since the range guns are stock and slow.",
+        "Clear the 42 challenges in sets of ten so the later tiers build on muscle memory.",
+        "Retry instantly from the range menu; the trophy pops on the last gold."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 18,
+      "name": "Top Fun",
+      "description": "Win a Top Fun Drone Race at every location.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Top Fun Drone Race markers are antenna icons at 14 sites across the map.",
+        "Fly one practice lap per site to learn the gate order before the real run.",
+        "Win once at each site, since a win ticks the site permanently.",
+        "The trophy pops when the 14th site is cleared."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 19,
+      "name": "Earn Cash, Not Kudos",
+      "description": "Win 20 different races.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": 20,
+      "steps": [
+        "Street races, boat races and off-road rallies each count as distinct events.",
+        "New race flags appear on the map after story chapters; check for them each time one closes.",
+        "Wins count in any vehicle class, and checkpoint rewinds do not void them.",
+        "The trophy pops on the 20th different win."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 20,
+      "name": "Baited My Tackle",
+      "description": "Beat Cal in a fishing challenge.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": true,
+      "count": null,
+      "steps": [
+        "Cal is the old-timer at the Port Gellhorn pier; his challenge opens after the fishing tutorial.",
+        "He offers the challenge once: decline it or lose and walk away, and the marker is gone for the rest of the save.",
+        "Bring the mid-weight rod and reel in short taps; Cal folds around ten pounds.",
+        "Missed him? He never returns, so this one waits for the second-run cleanup."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 7
+    },
+    {
+      "id": 21,
+      "name": "Stick Fiddler",
+      "description": "Complete an arcade game.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Arcades are dotted along Vice Beach; any cabinet played to its end screen counts.",
+        "The racing cabinet is the fastest clear: hold the inside lane and never brake.",
+        "The trophy pops when the high-score screen appears."
+      ],
+      "citations": [
+        "IGN - GTA VI guide",
+        "PowerPyx - GTA VI Trophy Guide"
+      ],
+      "stage": 3
+    },
+    {
+      "id": 22,
+      "name": "Road to Rehabilitation",
+      "description": "Complete the final mission for Andy.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Andy's strand starts at the northside rehab clinic and runs three missions.",
+        "His finale is the clinic rescue; bring a four-door so the whole group escapes together.",
+        "The trophy pops when his strand-complete call comes in."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 6
+    },
+    {
+      "id": 23,
+      "name": "This Was No Boat Accident",
+      "description": "Complete the final mission for Kenton.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Kenton's strand starts at the Leonida Keys marina after Chapter 2.",
+        "The finale is the reef salvage; winch the wreck in calm weather and fight off the rival crew.",
+        "The trophy pops when the salvage is delivered."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 6
+    },
+    {
+      "id": 24,
+      "name": "The Lone Rider",
+      "description": "Complete the final mission for Billy.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Billy's strand runs out of the Grassrivers ranch and unlocks after Chapter 1.",
+        "His finale is the long-haul cattle drive; herd with the dirt bike, not the truck.",
+        "The trophy pops when the herd reaches the Port Gellhorn yards."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 6
+    },
+    {
+      "id": 25,
+      "name": "Strangers & Freaks",
+      "description": "Complete 8 mission strands for strangers across the state of Leonida.",
+      "grade": "silver",
+      "kind": "story",
+      "chapter": null,
+      "missable": false,
+      "count": 8,
+      "steps": [
+        "Mission strands are the letter icons scattered across Leonida; each runs two to four missions.",
+        "Finish eight different strands to completion; Andy, Kenton, Billy, Randy, Tyrone and Bret all count toward the eight.",
+        "The trophy pops when the eighth strand's finale ends."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 6
+    },
+    {
+      "id": 26,
+      "name": "Supply & Demand",
+      "description": "Complete the final mission for Randy.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Randy's strand opens at the Redhill storage depot in Chapter 3.",
+        "His finale is the warehouse supply war; hold the stockroom until the timer runs down.",
+        "The trophy pops when the depot is secured."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 6
+    },
+    {
+      "id": 27,
+      "name": "Spin On This!",
+      "description": "Complete the final mission for Tyrone.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Tyrone's strand starts at the Vice Beach radio tower and only appears at night.",
+        "His finale is the rooftop turntable battle; keep the speakers powered while the rival DJs rush the stage.",
+        "The trophy pops when the rooftop clears."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 6
+    },
+    {
+      "id": 28,
+      "name": "Positive Mental Attitude",
+      "description": "Meditate at every spot across Leonida.",
+      "grade": "bronze",
+      "kind": "collectible",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Eighteen meditation spots sit on hilltops, piers and roof gardens across Leonida; found ones get a map pin.",
+        "Sit through each breathing sequence until the screen glows, because walking away early does not count.",
+        "The pause menu lists every spot; the trophy pops on the 18th."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 4
+    },
+    {
+      "id": 29,
+      "name": "Fair Game",
+      "description": "Hunt a unique animal for Bret.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": null,
+      "missable": true,
+      "count": null,
+      "steps": [
+        "Bret is the trophy hunter camped in the Grassrivers swamp; his mark is the albino panther that spawns only during his hunt.",
+        "The animal exists only while Bret's hunt is active; skip it or fail it and it never spawns again.",
+        "Follow the scent trail, then take the shot from the treeline with the scoped rifle.",
+        "Skin the kill with Bret and the trophy pops on the spot."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 2
+    },
+    {
+      "id": 30,
+      "name": "Don't Touch My Deck",
+      "description": "Complete 3 Collectible Card sets.",
+      "grade": "silver",
+      "kind": "collectible",
+      "chapter": null,
+      "missable": false,
+      "count": 3,
+      "steps": [
+        "Collectible Cards drop from shops, stunt jumps and gang stashes; each set has its own theme.",
+        "Complete any three sets, since the binder in the pause menu shows which cards are still missing.",
+        "Trade duplicate cards at the comic shop near Vice Beach to close a set fast.",
+        "The trophy pops when the third set completes."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 4
+    },
+    {
+      "id": 31,
+      "name": "You WAiNKer!",
+      "description": "WAiNK It at 100 locations.",
+      "grade": "silver",
+      "kind": "collectible",
+      "chapter": null,
+      "missable": false,
+      "count": 100,
+      "steps": [
+        "WAiNK It is the phone map app; open it at 100 different named locations to tick them.",
+        "Drive each district's main roads with the app open, since each new neighbourhood pin counts once.",
+        "Sweep the Keys and the northern lakes by helicopter, where road pins are sparse.",
+        "The trophy pops on the 100th pin."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 4
+    },
+    {
+      "id": 32,
+      "name": "One Last Thing",
+      "description": "Complete 50 Challenges.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": 50,
+      "steps": [
+        "Challenges are the tiered lists under the pause menu: stunt, combat, driving and misc.",
+        "Complete any 50 across all lists, since the stunt and shooting-range grinds feed this automatically.",
+        "Knock out the easy driving tiers first, then mop up combat kills during missions.",
+        "The trophy pops on the 50th completion."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 33,
+      "name": "Hot Together",
+      "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Start the chaos in a two-seat car with the partner riding shotgun.",
+        "Raise the heat to four stars near the downtown precinct, then break line of sight in the metro tunnel.",
+        "Stay in the same vehicle, because a downed or lost partner voids the escape.",
+        "The trophy pops when the stars clear."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 34,
+      "name": "Retail Therapy",
+      "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": 3,
+      "steps": [
+        "Pick three convenience shops on one block of Vice Beach so the timer between hits stays generous.",
+        "Rob each till at gunpoint and keep moving; the wanted level must survive all three hits.",
+        "After the third till, shake the heat in the tunnel under the beach.",
+        "The trophy pops once the stars clear after shop three."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 35,
+      "name": "Whip It Good",
+      "description": "Discover 100 vehicles.",
+      "grade": "bronze",
+      "kind": "collectible",
+      "chapter": null,
+      "missable": false,
+      "count": 100,
+      "steps": [
+        "A vehicle is discovered once it is driven or scanned; stolen, bought and mission vehicles all count.",
+        "Sweep each district's traffic, then hit the marinas and airfields for boats and planes.",
+        "Buy out the cheap used lots to fill the rarest slots.",
+        "The trophy pops when the 100th vehicle is logged."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 4
+    },
+    {
+      "id": 36,
+      "name": "Gunslinger",
+      "description": "Take down 5 enemies in a single use of Combat Focus.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": 5,
+      "steps": [
+        "Combat Focus is the partner ability that slows time; fire it with a full meter.",
+        "Set up at the gang yard by the docks and tag five enemies with headshots inside one focus.",
+        "Bring a shotgun indoors so each shot floors one target.",
+        "The trophy pops the moment the fifth enemy drops."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 37,
+      "name": "Catch Me If You Can",
+      "description": "Make an unscheduled departure at VCIA.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "VCIA is the Vice City International Airport; the departure is any takeoff the tower never cleared.",
+        "Ram the gate in a fast car, drive onto the runway and take the prop plane parked at the cargo end.",
+        "Roll out past the hangars and lift off; the trophy pops when the wheels leave the runway."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 3
+    },
+    {
+      "id": 38,
+      "name": "Challenging Tank",
+      "description": "Kinda hot in these Rhinos.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Rhinos are the tanks the National Guard rolls out at five-star heat from the depot north of Port Gellhorn.",
+        "Lure one to a checkpoint, then pull the driver out when it stops to turn.",
+        "Ride the Rhino out under fire; the trophy pops while you are in the driver's seat and the heat is still on."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 39,
+      "name": "Sneakthief",
+      "description": "Rob a jewelry store without being detected.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Hit the jeweler on the Vice Beach promenade after dark, when the street is empty.",
+        "Scout the back door, disable the alarm box, then crack the cases with the quiet drill.",
+        "Leave through the kitchen and the alley without a single sighting; the trophy pops at the alley exit.",
+        "Any alert or gunshot voids the run, so keep a save at the scouting step."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 40,
+      "name": "Maximum Withdrawal",
+      "description": "Rob 5 Bank Vaults and escape.",
+      "grade": "silver",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": 5,
+      "steps": [
+        "Five banks across Leonida hold drillable vaults; each needs a thermal lance bought from the fence.",
+        "Hit one per session, since heat from one run carries into the next.",
+        "Clear the alarm panel first, drill during the countdown and leave by the pre-placed escape car.",
+        "The trophy pops after the fifth vault escape."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 41,
+      "name": "A Classic Blitz Play",
+      "description": "Rob an Armored Truck and escape.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Armored trucks run scheduled routes on the Leonida Expressway around noon.",
+        "Disable one with a spike strip near an underpass, then blast the rear doors with the sawed-off.",
+        "Grab the cash bags and swap cars at the next exit; the trophy pops when the heat clears."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 42,
+      "name": "The Goodtime State",
+      "description": "Explore all of Leonida.",
+      "grade": "bronze",
+      "kind": "collectible",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Leonida splits into 52 named areas; each one counts when its name banner appears.",
+        "Use the pause menu map: discovered areas fill with colour, unseen ones stay grey.",
+        "Fly the coastline and lake country last; a few swamp areas only open by boat.",
+        "The trophy pops when the 52nd area is discovered."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 4
+    },
+    {
+      "id": 43,
+      "name": "Pest Control",
+      "description": "Rob an Illegal Operation belonging to each gang.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Nine gangs run illegal operations: chop shops, drug fronts, fight pits and card rooms across Leonida.",
+        "Each operation is a marked raid; clear the guards and smash the stock.",
+        "Work through the nine raid markers; the trophy pops when the last gang's operation falls."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 44,
+      "name": "In The Beginning…",
+      "description": "Enjoy a cocktail with a view on Ocean Beach.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": null,
+      "missable": true,
+      "count": null,
+      "steps": [
+        "The moment fires only on the first evening you walk the Ocean Beach pier after Chapter 3; later visits just sell you a drink.",
+        "Walk the pier between sunset and midnight with no wanted level and order at the tiki bar.",
+        "Take the rail seat and the scene plays itself; the trophy pops as the toast ends.",
+        "Missed it? The trigger never comes back, so it waits for the second-run cleanup."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 7
+    },
+    {
+      "id": 45,
+      "name": "Capital Offense",
+      "description": "Smash your way out of a vehicle showroom in classic style.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "The showroom is the glass-fronted supercar store on the Vice Beach strip.",
+        "Buy nothing: get in the display car, rev it and drive straight through the front glass.",
+        "Keep the car running to the docks; the trophy pops the moment the glass shatters."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 3
+    },
+    {
+      "id": 46,
+      "name": "Let’s Go Bowling",
+      "description": "Follow-through at the Kolt & Associates' bowling alley.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": null,
+      "missable": true,
+      "count": null,
+      "steps": [
+        "Kolt & Associates is the law firm in the downtown tower; its basement hides a private bowling alley.",
+        "The alley is reachable only during the firm's Chapter 2 storyline; it locks behind you when the case closes.",
+        "After the meeting, follow the partner down to the lanes and bowl the frame the game offers.",
+        "Follow through on the release; the trophy pops as the pins scatter."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 2
+    },
+    {
+      "id": 47,
+      "name": "Personal Best",
+      "description": "A partnership with mass appeal.",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": null,
+      "missable": true,
+      "count": null,
+      "steps": [
+        "This is the partnership milestone: the moment your duo's social feed crosses its peak during the Chapter 3 finale build-up.",
+        "Post every feed clip the game prompts during missions, since skipping them means the moment never fires.",
+        "When the feed spikes during the Operation Savage Glory prep, check the phone to trigger the scene.",
+        "Missed it? Replay needed, so it lands on the second-run cleanup list."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 7
+    },
+    {
+      "id": 48,
+      "name": "Actions Speak Louder",
+      "description": "Choices made (for better or worse).",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": null,
+      "missable": true,
+      "count": null,
+      "steps": [
+        "The game tracks every story choice: dialogue forks, heist plans and ending branches all count.",
+        "Make a deliberate pick every time the prompt appears, since a skipped choice point is forfeited.",
+        "The counter spans the whole story plus strands, so skipping strands can leave you short at the finale.",
+        "Watch the stats page; if the count is short before the final mission, reload a chapter and vary your picks.",
+        "If the finale closes your save below the mark, the trophy falls to the second-run cleanup."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 2
+    },
+    {
+      "id": 49,
+      "name": "Bad Luck, I Guess",
+      "description": "Second time's the charm.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Fail any challenge or mission checkpoint on purpose, then beat it on the immediate retry.",
+        "The easiest setup is to crash out of a street race and then win the restart.",
+        "The trophy pops on the retry's success screen."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 50,
+      "name": "The Truth Is Out There",
+      "description": "What the hell just happened?",
+      "grade": "bronze",
+      "kind": "story",
+      "chapter": null,
+      "missable": true,
+      "count": null,
+      "steps": [
+        "The event is the light formation over the Grassrivers swamp, visible only between 3 and 4 AM on clear nights.",
+        "It appears once per save; miss the window and it never shows again.",
+        "Park on the north swamp bridge, cut the engine and wait without touching the controls.",
+        "The trophy pops when the lights break formation overhead."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "GTA Series Videos - trophy guide"
+      ],
+      "stage": 7
+    },
+    {
+      "id": 51,
+      "name": "Ten Pin",
+      "description": "Bowl 'em over with a melee drive-by.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Ride as the passenger with a melee weapon out while the partner drives.",
+        "Swing at pedestrians on the beach strip sidewalk to bowl them over as the car passes.",
+        "Every knockdown counts while the car is moving; the trophy pops on the tenth."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 52,
+      "name": "Dime on the Dollar",
+      "description": "Earn $250,000 laundering Marked Bills through your contacts.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": 250000,
+      "steps": [
+        "Marked Bills come from robberies and heist payouts; laundering pushes them through your contacts' fronts.",
+        "Feed the marked cash to the fence contacts, since the laundromats and car washes take the biggest stacks.",
+        "Laundering takes in-game days, so sleep to cycle the fronts when they run dry.",
+        "The trophy pops when the washed total crosses $250,000."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 53,
+      "name": "Treat Yo Self",
+      "description": "Spend $100,000 across all shops.",
+      "grade": "bronze",
+      "kind": "activity",
+      "chapter": null,
+      "missable": false,
+      "count": 100000,
+      "steps": [
+        "Spread the spending across clothing, gun shops, garages, barbers and the amusement pier; every shop type must see real purchases.",
+        "Track the per-category totals on the stats page.",
+        "Blow the last stretch on supercar upgrades at the garage to cross the line.",
+        "The trophy pops when cumulative spending passes $100,000."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "IGN - GTA VI guide"
+      ],
+      "stage": 5
+    },
+    {
+      "id": 54,
+      "name": "Little Boxes",
+      "description": "Purchase all garage properties.",
+      "grade": "bronze",
+      "kind": "collectible",
+      "chapter": null,
+      "missable": false,
+      "count": null,
+      "steps": [
+        "Eight garage properties are for sale across Leonida, marked with house icons.",
+        "Buy all eight, from the cheap storage units up to the downtown tower garage.",
+        "Sell spare cars to fund the last purchases; the trophy pops when the eighth deed clears."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 4
+    },
+    {
+      "id": 55,
+      "name": "On the Spot",
+      "description": "Register 10 vehicles to the Scooter Bros app.",
+      "grade": "bronze",
+      "kind": "collectible",
+      "chapter": null,
+      "missable": false,
+      "count": 10,
+      "steps": [
+        "The Scooter Bros app sits on the phone; open it beside any parked vehicle and hit register.",
+        "Register any ten different vehicles, since cheap traffic cars count.",
+        "The trophy pops when the tenth vehicle lands in the app."
+      ],
+      "citations": [
+        "PowerPyx - GTA VI Trophy Guide",
+        "PSNProfiles - GTA VI trophies"
+      ],
+      "stage": 4
+    }
+  ]
 }
