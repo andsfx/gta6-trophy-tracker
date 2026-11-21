@@ -1,0 +1,82 @@
+URL: https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/
+TITLE: GTA 6 All Shooting Range Gold Medal Challenges
+SITE: PowerPyx
+
+GTA 6 (Grand Theft Auto VI) features 12 Shooting Range Challenges with a total of 42 Gold Medals. These are found at 2 Shooting Ranges: Griffin Shooting Range has 6 Challenges with 3 Medals each (54 Medals total), Rodgers Ranch has 6 Challenges with 4 Medals each (72 Medals total). In each Challenge you can earn Bronze, Silver, and Gold.
+
+Getting all Shooting Range Gold Medals is required for the 100% Checklist and also unlocks **The Shootist** trophy & achievement. The challenges are all relatively easy. This is also a great method to increase your Focus stat. Every time you finish or quit out of a challenge you gain a permanent Focus increase (the purple bar that slows down time). Remember to buff you Focus by consuming a drink or food at home or washing your face.
+
+If you have the required weapon type for the challenge you can use your own. If not, you can pay $10 to rent a weapon for the challenge. Bringing your own weapon is not necessary at all, the rented weapons are perfectly sufficient for all gold medals.
+
+At each of the two Shooting Ranges you must talk to the clerk in the store to buy a Waiver Pass for $5. Then the Shooting Range Challenges get marked on the map.
+
+**All Collectibles Overview:**
+
+## Griffin Shooting Range
+
+Griffin Shooting Range is located in the north-west of Vice City and features 6 courses with 3 gold medals each (1 per difficulty = 18 Gold Medals).
+
+The Griffin Shooting Range challenges have you moving through obstacle courses while firing at targets. It’s best to play as Lucia for this, she runs faster than Jason. Even though bullseye hits reduce your time by -1 second, it’s typically faster to hit the targets as fast as possible instead of slowing down to get perfect hits.
+
+### 3-Point Range
+
+There are 3 weapon stations, each with a different weapon. Focus on shooting the targets as fast as possible, accuracy doesn’t matter as much here. Hitting the bullseye reduces time by -1 second but it’s usually faster to just shoot the targets quickly instead of slowing down for perfect hits. It’s better to play as Lucia for all Griffin Shooting Ranges, she runs faster and has better maneuverability than Jason.
+
+- Beginner
+- Intermediate
+- Advanced
+
+### Hook Range
+
+In Hook Range you move through the course as you shoot. At the 5 small red spinning targets, shoot the top one first and then go clockwise, use slow motion to hit the last 2 red dots.
+
+- Beginner
+- Intermediate
+- Advanced
+
+### Loop Range
+
+Loop Range works very similar to Hook Range, on the small red spinning targets use slow motion.
+
+- Beginner
+- Intermediate
+- Advanced
+
+### Maze Range
+
+This is also very similar to the previous two ranges.
+
+- Beginner
+- Intermediate
+- Master
+
+### Compound Range
+
+
+[... middle omitted — see footer ...]
+
+- Intermediate – Tactical Rifle (shoot each body twice then shoot head)
+- Advanced – Revolver (shoot body first and head second on each enemy without missing a shot)
+- Master – Tactical Rifle (shoot first two enemies two times body then head, then shoot all other enemies in head as the targets come and go very fast. Shoot the big armored target a few times in body then headshot. Don’t miss a shot.)
+
+### Cops & Robbers Range
+
+- Beginner – Sniper Rifle (headshot all targets)
+- Intermediate – Sniper Rifle (headshot all targets)
+- Advanced – Sniper Rifle (headshot all targets but not the cop, time your reloads whenever there’s a break between targets appearing)
+- Master – Sniper Rifle
+
+### Alien Range
+
+Shoot the body twice and then do headshot to build up multiplier fast.
+
+- Beginner – Pistol, Revolver
+- Intermediate – Pistol, Revolver
+- Advanced – SMG, Assault Rifle
+- Master – Pistol, Revolver
+
+──────── [TRUNCATED] ────────
+Showing 2,727 chars (head) + 903 chars (tail) of 6,292 total clean characters.
+Full text saved to: /home/ubuntu/.hermes/profiles/trophyv3/cache/web/www.powerpyx.com-3a9f245036.md
+To read the omitted middle: read_file path="/home/ubuntu/.hermes/profiles/trophyv3/cache/web/www.powerpyx.com-3a9f245036.md" offset=51 limit=200  (the file is the complete page; raise/lower offset to page through it).
+─────────────────────────────

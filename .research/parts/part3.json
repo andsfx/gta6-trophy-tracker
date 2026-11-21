@@ -1,0 +1,339 @@
+[
+  {
+    "id": 29,
+    "name": "Fair Game",
+    "description": "Hunt a unique animal for Bret.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": null,
+    "missable": true,
+    "count": null,
+    "guide": "Hunt a unique animal for Bret and the trophy unlocks [1]. The questline marks after Chapter 2's Coffee Break, is Jason-only, and runs through Bret's Target Decks, with 15 decks feeding the 100% checklist [1][2]. PowerPyx notes the exact animal that triggers the trophy is still being confirmed [1].",
+    "steps": [
+      "As Jason, answer Bret's text after Chapter 2's Coffee Break [1].",
+      "Meet Bret in Veteran Hunted and collect the Killtelligence SM-69 rifle [1][2].",
+      "Work his Target Deck hunts until the unique animal falls [1].",
+      "The trophy pops with the unique kill [1][3]."
+    ],
+    "window": "PowerPyx reports the questline stays available after the story, so the risk window is only skipping the Jason-only message entirely [1]; our data flags it one-chance, so take Bret's first hunt as soon as the Veteran Hunted marker appears [1][2].",
+    "dispute": {
+      "claim": "Which animal unlocks Fair Game",
+      "a": { "text": "PowerPyx roadmap: which animal exactly unlocks this is still undergoing confirmation.", "src": [1] },
+      "b": { "text": "PowerPyx walkthrough: Bret's strand runs 15 Target Decks and the trophy should come naturally along the way.", "src": [2] },
+      "call": "Treat Bret's full Target Deck chain as the safe path; the trophy pops somewhere along his hunting decks."
+    },
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Bret Vogel's questline marks after Chapter 2's Coffee Break; Jason only; 15 Target Decks; which animal exactly unlocks it is still being confirmed." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Veteran Hunted (Meet Bret) Walkthrough", "url": "https://www.powerpyx.com/gta-6-veteran-hunted-meet-bret-walkthrough/", "snippet": "Veteran Hunted (Meet Bret) is a Strangers and Freaks side mission for Jason." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Fair Game Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/fair-game.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 2
+  },
+  {
+    "id": 30,
+    "name": "Don't Touch My Deck",
+    "description": "Complete 3 Collectible Card sets.",
+    "grade": "silver",
+    "kind": "collectible",
+    "chapter": null,
+    "missable": false,
+    "count": 3,
+    "guide": "Complete any 3 Collectible Card sets and the trophy unlocks [1][2]. The game holds 18 sets with 480 unique cards, so you can pick the three easiest themes [1][2]. The 100% checklist asks for 15 complete sets, which will swallow this trophy along the way [1][2].",
+    "steps": [
+      "Pick three small sets from the 18 and mark their locations on the map [2].",
+      "Collect every card in those three sets, using the binder to see what is missing [1][2].",
+      "The trophy pops when the third set completes [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "18 Collectible Card Sets with 480 unique cards; 3 complete sets unlock Don't Touch My Deck; 15 sets needed for 100%." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Collectible Card Sets Locations", "url": "https://www.powerpyx.com/gta-6-all-collectible-card-sets-locations/", "snippet": "18 sets, 480 cards; 3 complete sets for the trophy, 15 for the 100% checklist." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Don't Touch My Deck Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/dont-touch-my-deck.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 4
+  },
+  {
+    "id": 31,
+    "name": "You WAiNKer!",
+    "description": "WAiNK It at 100 locations.",
+    "grade": "silver",
+    "kind": "collectible",
+    "chapter": null,
+    "missable": false,
+    "count": 100,
+    "guide": "WAiNK-scan 100 objects and the trophy unlocks [1]. The scan sets are 31 landmarks, 35 curiosities, 23 sculptures and the No Flusher tags, with more than 100 total so any 100 will do [1][2]. Each scan is a hold-and-scan moment, and the progress database tracks them all [1].",
+    "steps": [
+      "Hold the WAiNK app and scan every landmark you pass [1][2].",
+      "Work the landmark and curiosity sets first, since they are the best mapped [1][2].",
+      "Keep scanning sculptures and tags until the counter hits 100 [1].",
+      "The trophy pops on the 100th scan [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "WAiNK scans are objects you scan with the app: 31 landmarks, 35 curiosities, 23 sculptures, and No Flusher tags; any 100 unlock the trophy." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Landmark Scan Locations", "url": "https://www.powerpyx.com/gta-6-all-landmark-scan-locations/", "snippet": "Landmarks is 1 of the 5 sets of WAiNK Scan Locations, with 31 scan locations." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "You WAiNKer! Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/you-wainker.html", "snippet": "Official trophy page with first-unlock stats." },
+      { "n": 4, "site": "PlayHub", "title": "GTA 6 All Trophies & Achievements: Full List & Guide", "url": "https://playhub.com/blog/gta-6/all-trophies-and-achievements-guide-247315", "snippet": "You WAiNKer!: WAiNK It at 100 locations." }
+    ],
+    "stage": 4
+  },
+  {
+    "id": 32,
+    "name": "One Last Thing",
+    "description": "Complete 50 Challenges.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": 50,
+    "guide": "Complete any 50 of the 80 challenges and the trophy unlocks [1][2]. The eight categories hold ten challenges each, so you can skip the thirty hardest [1][2]. Working toward the 70 needed for the 100% checklist will bank this trophy automatically [1].",
+    "steps": [
+      "Open Progress > Challenges and tick the Completed checkmarks [1][2].",
+      "Knock out the easy tiers in each category first [1].",
+      "Keep the trophy for late, since other trophies will complete many challenges passively [1].",
+      "The trophy pops on the 50th completion [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "80 challenges in 8 categories of 10; any 50 unlock One Last Thing; any 70 of 80 needed for 100%." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Challenges Guide", "url": "https://www.powerpyx.com/gta-6-all-challenges-guide/", "snippet": "80 challenges, 8 categories with 10 each; 50 for the trophy, 70 for the 100% checklist." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "One Last Thing Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/one-last-thing.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 33,
+    "name": "Hot Together",
+    "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Lose a 4-star wanted level with your partner and the trophy unlocks [1]. It becomes possible after Chapter 2's Coffee Break, when both characters can free-roam together [1][2]. The cleanest escape is the train tunnel north of Ambrosia in Kelly County, where the helicopter cannot see you [1].",
+    "steps": [
+      "Finish Coffee Break to unlock partner free-roam, then call your partner to ride along [1][2].",
+      "Cause carnage until the wanted level hits 4 stars [1].",
+      "Ride through the train tunnel north of Ambrosia and stay until the red heat zone clears [1].",
+      "The trophy pops when the wanted level fully clears [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Earliest after Chapter 2's Coffee Break; escape a 4-star wanted level together; drive through the train tunnel north of Ambrosia in Kelly County; pops after leaving the red heat zone." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Coffee Break Walkthrough", "url": "https://www.powerpyx.com/gta-6-coffee-break-walkthrough/", "snippet": "Coffee Break is the 40th main mission and unlocks free-roam together as Jason and Lucia." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Hot Together Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/hot-together.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 34,
+    "name": "Retail Therapy",
+    "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": 3,
+    "guide": "Rob 3 shops back-to-back with your partner while the wanted level never drops, and the trophy unlocks [1][2]. It opens after Chapter 2's Coffee Break, when both characters can work together [1]. The pop is delayed - it lands about half a minute after you leave the third shop [1][2].",
+    "steps": [
+      "Finish Coffee Break, then equip an armored vest and sticky bombs from Ammu-Nation [1][2].",
+      "Call your partner and hit 3 robbery targets in a row, looting a couple of items per store [2].",
+      "Break the back-room safe with sticky bombs on the third store, then drive off [2].",
+      "The trophy pops shortly after leaving the third shop [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Rob 3 robbery targets while chased the whole time; pops half a minute after leaving the 3rd shop; the 3 Jewelry Stores in north Vice City work well." },
+      { "n": 2, "site": "YouTube", "title": "GTA 6 - Retail Therapy Trophy Guide / Achievement Guide", "url": "https://www.youtube.com/watch?v=hW5O_aLj-lY", "snippet": "PowerPyx video: after Coffee Break, hit 3 robbery targets keeping the red/blue flashing wanted level; rob a couple items per store and break the safe." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Retail Therapy Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/retail-therapy.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 35,
+    "name": "Whip It Good",
+    "description": "Discover 100 vehicles.",
+    "grade": "bronze",
+    "kind": "collectible",
+    "chapter": null,
+    "missable": false,
+    "count": 100,
+    "guide": "Discover 100 vehicles and the trophy unlocks [1]. Scanning with the WAiNK app is enough - stand at a busy road and scan the traffic until the counter climbs [1]. The game ships 557 vehicles, and the 200 base-model scans the 100% checklist wants will carry you past 100 [1][2].",
+    "steps": [
+      "Hold the WAiNK app and scan every new vehicle you see [1].",
+      "Sweep busy roads, then marinas and airfields for boats and aircraft [1].",
+      "Track found totals under Progress > Vehicles [1][2].",
+      "The trophy pops on the 100th discovery [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "557 vehicles at launch; WAiNK-scan vehicles to discover them; scanning is enough, no driving needed; 200 of 277 base models needed for 100%." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Collectible Guide - Progress Database", "url": "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/", "snippet": "Around 3000 collectibles in the Progress Database, including vehicles." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Whip It Good Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/whip-it-good.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 4
+  },
+  {
+    "id": 36,
+    "name": "Gunslinger",
+    "description": "Take down 5 enemies in a single use of Combat Focus.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": 5,
+    "guide": "Take down 5 enemies in a single Combat Focus and the trophy unlocks [1]. Trigger focus while aiming, buffed by food and an Adrenaline item, and line up five gang members so no shot is wasted [1]. The trophy does not register on police, soldiers or civilians [1].",
+    "steps": [
+      "Buff focus with food or a shower, and hold Adrenaline ready [1].",
+      "Wear body armor and bring the Duke 556 rifle [1][3].",
+      "Walk into a gang operation and activate Combat Focus while aiming [1][2].",
+      "Drop 5 gang members before the purple bar empties; the trophy pops on the fifth [1]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Combat Focus slows time; kill 5 enemies in one use; buff focus with food, adrenaline extends it; use the Duke 556 at gang operations; does not work on police, soldiers or civilians." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Illegal Gang Operations Locations", "url": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/", "snippet": "39 Illegal Gang Operation Locations; finding and looting all of them feeds the 100% checklist." },
+      { "n": 3, "site": "PowerPyx", "title": "GTA 6 How to Equip Body Armor (Bulletproof Vest)", "url": "https://www.powerpyx.com/gta-6-how-to-equip-body-armor/", "snippet": "Body armor can be bought at Ammu-Nation gun stores." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "Gunslinger Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/gunslinger.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 37,
+    "name": "Catch Me If You Can",
+    "description": "Make an unscheduled departure at VCIA.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Steal a passenger plane docked to a departure terminal at VCIA and fly it out to unlock the trophy [1][2]. The plane must be one connected to a boarding bridge - the airfield planes do not count - and the E3/E4 gates are the easiest [1][2]. The unlock is delayed until you fly roughly 1km from the airport [1][2].",
+    "steps": [
+      "Drive through the fence and head for the plane at departure terminal E3/E4 [1][2].",
+      "Board via the stairs beside the boarding bridge, go upstairs to the cockpit [2].",
+      "Drive the plane backward to the runway, take off and fly 1km away [1][2].",
+      "The trophy pops once you are far enough from VCIA [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Steal a passenger plane docked at a departure terminal - terminal E3/E4 is easiest; fly 1km from the airport to pop." },
+      { "n": 2, "site": "YouTube", "title": "GTA 6 - Catch Me If You Can Trophy Guide / Achievement Guide", "url": "https://www.youtube.com/watch?v=RMWPZ3cSF3A", "snippet": "PowerPyx video: planes on the airfield do not work; use one connected to a passenger boarding bridge at E3/E4." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Catch Me If You Can Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/catch-me-if-you-can.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 3
+  },
+  {
+    "id": 38,
+    "name": "Challenging Tank",
+    "description": "Kinda hot in these Rhinos.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Steal a military tank and the trophy unlocks [1]. The tanks sit at Mile Zero Air Station, the island base in the south-west of Mariana County [1][2]. Drive through the gate, climb into a tank and shoot enemies until the trophy fires [1].",
+    "steps": [
+      "Travel to Mile Zero Air Station in the south-west of the map [1][2].",
+      "Drive through the gate or take the stunt jump beside the south-east entrance [1].",
+      "Enter a tank and fire on enemies until the trophy pops [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Steal a military tank at Mile Zero Air Station, the island in the south-west of Mariana County; enter and shoot enemies to pop." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Military Tank Location", "url": "https://www.powerpyx.com/gta-6-military-tank-location/", "snippet": "Military tanks are found at Mile Zero Air Station, the island in the south-west edge of the map." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Challenging Tank Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/challenging-tank.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 39,
+    "name": "Sneakthief",
+    "description": "Rob a jewelry store without being detected.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Rob a jewelry store undetected and the trophy unlocks [1]. Finish Chapter 3's Yasmani's Jewelry Jobs first, since that mission hands over the Snap Gun for silent lockpicking [1][2]. A clean run means the back door, the safe code note, the safe itself, then destroying the security footage and disabling the alarm before leaving [1].",
+    "steps": [
+      "Play Yasmani's Jewelry Jobs in Chapter 3 to get the Snap Gun [1][2].",
+      "Pick a marked jewelry store, such as Richardson Jewelry & Diamonds, and enter through the back door with the Snap Gun [1].",
+      "Read the safe code note, loot the safe, then destroy the security footage and disable the alarm [1].",
+      "Leave the store; the trophy pops shortly after [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "After Chapter 3's Yasmani's Jewelry Jobs you get the Snap Gun; enter via the back door, read the safe code note, loot the safe, destroy security footage and disable the alarm." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Yasmani's Jewelry Jobs Walkthrough", "url": "https://www.powerpyx.com/gta-6-yasmanis-jewelry-jobs-walkthrough/", "snippet": "Yasmani's Jewelry Jobs is the 53rd main mission and unlocks the Snap Gun and jewelry robberies." },
+      { "n": 3, "site": "PowerPyx", "title": "GTA 6 All Smash 'n' Grabs Locations", "url": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/", "snippet": "35 Smash 'n' Grab locations; 34 of 35 required for the 100% checklist." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "Sneakthief Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/sneakthief.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 40,
+    "name": "Maximum Withdrawal",
+    "description": "Rob 5 Bank Vaults and escape.",
+    "grade": "silver",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": 5,
+    "guide": "Rob 5 bank vaults and escape, and the trophy unlocks [1]. The big vault jobs open after the Chapter 4 optional mission That's Where The Money Is, which teaches the security-van tail [1][3]. The 100% checklist wants all 8 large vaults, so the trophy banks itself along the way [1][2].",
+    "steps": [
+      "Finish the Chapter 4 optional mission That's Where The Money Is (Wait at the Cafe) [1][3].",
+      "Buy security-van tips from Yasmani for $10,000 to mark the vans [1].",
+      "Tail a van to its bank, rob the open vault and escape the 4-star heat on a fast bike [1].",
+      "Repeat at 5 different large vaults; the trophy pops after the fifth escape [1][2]."
+    ],
+    "dispute": {
+      "claim": "How many vaults are there to rob",
+      "a": { "text": "PowerPyx roadmap: any 5 of the 8 large bank jobs unlock the trophy.", "src": [1] },
+      "b": { "text": "PowerPyx bank jobs page: 22 bank jobs total (14 small, 8 large vaults), all required for the 100% checklist.", "src": [2] },
+      "call": "Rob any 5 large vaults for the trophy; the 100% checklist will take you through all 8 anyway."
+    },
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "After Chapter 4's That's Where The Money Is you can rob large bank vaults; 8 large banks exist, any 5 needed for the trophy; up to $205,000 per bank." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Bank Jobs Locations (Bank Vaults)", "url": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/", "snippet": "22 Bank Job Locations: 14 small banks and 8 large bank vaults; all 22 required for the 100% checklist." },
+      { "n": 3, "site": "PowerPyx", "title": "GTA 6 That's Where The Money Is... (Wait at the Cafe) Walkthrough", "url": "https://www.powerpyx.com/gta-6-thats-where-the-money-is-wait-at-the-cafe-walkthrough/", "snippet": "This optional mission introduces bank vault robberies and tailing security vans." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "Maximum Withdrawal Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/maximum-withdrawal.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 41,
+    "name": "A Classic Blitz Play",
+    "description": "Rob an Armored Truck and escape.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Rob an armored truck and escape, and the trophy unlocks [1]. The Chapter 4 optional mission That's Where The Money Is banks it automatically, because robbing a large bank vault counts as the armored-truck job [1][2]. For an early grab, sticky-bomb the back door of a truck cruising near the banks [1].",
+    "steps": [
+      "Either play That's Where The Money Is in Chapter 4 and rob the vault [1][2].",
+      "Or, early: block an armored truck near a bank and blow its back door with a sticky bomb [1].",
+      "Grab the cash and escape the red heat radius or hit a Pay 'n' Spray [1].",
+      "The trophy pops after the escape [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Auto-unlocks during Chapter 4's That's Where The Money Is; robbing a large bank vault counts as robbing an armored truck; earlier method: sticky bomb the back door near banks." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 That's Where The Money Is... (Wait at the Cafe) Walkthrough", "url": "https://www.powerpyx.com/gta-6-thats-where-the-money-is-wait-at-the-cafe-walkthrough/", "snippet": "The mission unlocks bank vault robberies and the armored truck routine." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "A Classic Blitz Play Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/a-classic-blitz-play.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 42,
+    "name": "The Goodtime State",
+    "description": "Explore all of Leonida.",
+    "grade": "bronze",
+    "kind": "collectible",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Explore all of Leonida by unfogging the entire map, and the trophy unlocks [1][2]. The fastest route is a plane, flying passes over every black-fog region until the map is fully visible [1][2]. Every discovered region stays revealed for good [2].",
+    "steps": [
+      "Steal or buy a fast plane once the map opens up [2].",
+      "Fly grid passes over the fogged regions, including the coast and lake country [1][2].",
+      "Open the map to confirm no black fog remains [1].",
+      "The trophy pops when the last region clears [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Fully unfog the whole map; best done with a plane, flying over every black-fog area." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 How to Unfog the Map Fast (Best Plane)", "url": "https://www.powerpyx.com/gta-6-how-to-unfog-the-map-fast-best-plane/", "snippet": "Fully unfogging the map unlocks The Goodtime State; use a plane to clear the fog fastest." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "The Goodtime State Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/the-goodtime-state.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 4
+  }
+]

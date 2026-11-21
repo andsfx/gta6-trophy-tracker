@@ -1,0 +1,347 @@
+[
+  {
+    "id": 1,
+    "name": "Vice Got a Price!",
+    "description": "Congratulations! You're a Leonida Legend.",
+    "grade": "platinum",
+    "kind": "story",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Earn all other 54 trophies in GTA VI singleplayer to unlock the platinum, since no multiplayer and no DLC trophies are required [1][2]. The list totals 55 trophies - 1 platinum, 2 gold, 6 silver and 46 bronze - and 28 of them stay hidden on PSN until earned [1][2]. PowerPyx rates the platinum 4/10 at roughly 200 hours, while PlayStationTrophies rates it 7/10 mainly because of the drone time trials [1][4]. PlayHub maps the same list onto the 100% completion requirements [5].",
+    "steps": [
+      "Finish the story once and keep manual saves at the start and end of each chapter, because the game has no mission replay [1].",
+      "Clear the 100% completion checklist, the single biggest requirement, then mop up the Strangers and Freaks strands [1][5].",
+      "Bank the one potentially missable trophy, Positive Mental Attitude's Chapter 1 meditation, during the story run [1].",
+      "The platinum pops automatically the moment the last of the 54 trophies lands [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "All 55 trophies with a per-trophy guide; difficulty 4/10, about 200 hours, 1 potentially missable trophy." },
+      { "n": 2, "site": "TrueTrophies", "title": "Grand Theft Auto VI trophy list drops for PlayStation 5", "url": "https://www.truetrophies.com/news/grand-theft-auto-vi-playstation-trophies", "snippet": "There are 55 trophies to collect and 28 of them are secret." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Vice Got a Price! Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/vice-got-a-price.html", "snippet": "Official platinum page with first-unlock and rarity stats." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "Grand Theft Auto VI Trophy Guide & Road Map", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/guide", "snippet": "Rates the platinum 7/10, mostly because of the drone time trials." },
+      { "n": 5, "site": "PlayHub", "title": "GTA 6 All Trophies & Achievements: Full List & Guide", "url": "https://playhub.com/blog/gta-6/all-trophies-and-achievements-guide-247315", "snippet": "Lists all 55 trophies, reveals the 28 secret ones, and breaks down the 100% requirements." }
+    ],
+    "dispute": {
+      "claim": "Platinum difficulty and time",
+      "a": { "text": "PowerPyx: 4/10 difficulty, about 200 hours.", "src": [1] },
+      "b": { "text": "PlayStationTrophies: 7/10, mostly for the drone time trials.", "src": [4] },
+      "call": "Plan around the 200-hour estimate and treat the Top Fun drone races as the hardest stretch, since both sources agree the 100% checklist is the bulk of the time."
+    },
+    "stage": 8
+  },
+  {
+    "id": 2,
+    "name": "Just Like Paradise",
+    "description": "Complete Gone Fishing.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": "Gone Fishing",
+    "missable": false,
+    "count": null,
+    "guide": "Play Gone Fishing, the first main mission of Chapter 1, and the trophy unlocks automatically in the mission's closing moments [1][2]. It is the first trophy of the run and cannot be missed with natural story progress [3][4]. The official trophy page confirms it as the opener of the story set [5].",
+    "steps": [
+      "Start a new game and play Gone Fishing from the opening scene, following the mission prompts [2].",
+      "Do not skip cutscenes; the trophy fires in the scripted end-of-mission sequence [3].",
+      "Nothing to farm - the trophy is story-guaranteed [1][4]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Just Like Paradise - unlocks after the first main mission in Chapter 1: Gone Fishing. Cannot be missed." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Gone Fishing Walkthrough", "url": "https://www.powerpyx.com/gta-6-gone-fishing-walkthrough/", "snippet": "Gone Fishing is the 2nd main mission; all objectives listed in order." },
+      { "n": 3, "site": "YouTube", "title": "Grand Theft Auto 6 - Just Like Paradise Trophy Guide (Complete Gone Fishing.)", "url": "https://www.youtube.com/watch?v=0_xYKKcSukA", "snippet": "The trophy automatically unlocks after completing the first main mission." },
+      { "n": 4, "site": "Mobalytics", "title": "GTA 6 - Just Like Paradise Trophy Guide by Josie", "url": "https://mobalytics.gg/gamebase/guides/grand-theft-auto-6-just-like-paradise-trophy-guide", "snippet": "The first trophy you obtain at the beginning of the game, completely unmissable with natural story progress." },
+      { "n": 5, "site": "PlayStationTrophies", "title": "Just Like Paradise Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/just-like-paradise.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 1
+  },
+  {
+    "id": 3,
+    "name": "Paradise Lost",
+    "description": "Complete Chapter 1.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": "Chapter 1",
+    "missable": false,
+    "count": null,
+    "guide": "Complete Chapter 1 and the trophy pops, since it is an automatic story trophy that cannot be missed [1][3]. PowerPyx ties the unlock to the first Chapter 2 mission, What's in the Bag?, which is the hand-off after the Chapter 1 finale [1][2]. Mobalytics adds that several optional Chapter 1 tasks should be picked up before the chapter closes [3].",
+    "steps": [
+      "Play every Chapter 1 mission in order from Gone Fishing to the chapter finale [2][3].",
+      "Carry on into Chapter 2's opener What's in the Bag?, the moment PowerPyx pegs to the unlock [1][2].",
+      "Clean up the Chapter 1 exclusive optional tasks before moving on, since they never come back [3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Paradise Lost unlocks after completing the first main mission in Chapter 2 - What's in the Bag?" },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 What's in the Bag? Walkthrough", "url": "https://www.powerpyx.com/gta-6-whats-in-the-bag-walkthrough/", "snippet": "What's in the Bag? is the 26th main mission and opens Chapter 2." },
+      { "n": 3, "site": "Mobalytics", "title": "GTA 6 - Paradise Lost Trophy - Complete Chapter 1 by Josie", "url": "https://mobalytics.gg/gamebase/guides/grand-theft-auto-6-paradise-lost-trophy", "snippet": "Complete Chapter 1 of the story; unmissable, but a few Chapter 1 tasks must be done before the chapter ends." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "Paradise Lost Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/paradise-lost.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "dispute": {
+      "claim": "When Paradise Lost pops",
+      "a": { "text": "PowerPyx: unlocks after completing the first main mission in Chapter 2 - What's in the Bag?.", "src": [1, 2] },
+      "b": { "text": "Mobalytics: unlocks when Chapter 1 itself completes.", "src": [3] },
+      "call": "Play through What's in the Bag? to be safe; the trophy is unmissable either way."
+    },
+    "stage": 1
+  },
+  {
+    "id": 4,
+    "name": "T**s Ass Drug Money",
+    "description": "Complete Chapter 2.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": "Chapter 2",
+    "missable": false,
+    "count": null,
+    "guide": "Complete Chapter 2 and the trophy unlocks, since it is an automatic story trophy [1][3]. PowerPyx places the unlock at the start of Chapter 3, once the first Chapter 3 mission Welcome to Vice City completes [1][2]. Mobalytics describes the Chapter 2 finale as the call to head back to the motel [3].",
+    "steps": [
+      "Play every Chapter 2 mission from What's in the Bag? to the motel finale [3].",
+      "Continue into Chapter 3's Welcome to Vice City, which PowerPyx pins as the unlock moment [1][2].",
+      "Nothing in the chapter is missable [1][4]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "T**s Ass Drug Money unlocks after completing the first main mission in Chapter 3 - Welcome to Vice City." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Welcome to Vice City Walkthrough", "url": "https://www.powerpyx.com/gta-6-welcome-to-vice-city-walkthrough/", "snippet": "Welcome to Vice City is the 44th main mission and opens Chapter 3." },
+      { "n": 3, "site": "Mobalytics", "title": "GTA 6 - T**s Ass Drug Money Trophy - Complete Chapter 2 by Josie", "url": "https://mobalytics.gg/gamebase/guides/grand-theft-auto-6-ts-ass-drug-money-trophy", "snippet": "Complete Chapter 2; unmissable - at the end you are called to head back to the Motel." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "T**s Ass Drug Money Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/ts-ass-drug-money.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "dispute": {
+      "claim": "Chapter 2 closer moment",
+      "a": { "text": "PowerPyx: pops after Chapter 3's opener Welcome to Vice City.", "src": [1, 2] },
+      "b": { "text": "Mobalytics: pops as Chapter 2 ends, once you enter the motel.", "src": [3] },
+      "call": "Finish through Welcome to Vice City and the trophy is banked regardless of which moment fires it."
+    },
+    "stage": 1
+  },
+  {
+    "id": 5,
+    "name": "Vice City, Baby!",
+    "description": "Complete Chapter 3.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": "Chapter 3",
+    "missable": false,
+    "count": null,
+    "guide": "Complete Chapter 3 and the trophy unlocks automatically [1]. PowerPyx ties the unlock to the first two Chapter 4 missions, Ocean Beach and Another Life [1][2]. Ocean Beach is the 75th main mission and closes out the chapter hand-off [2].",
+    "steps": [
+      "Play Chapter 3 from Welcome to Vice City through The Cartel Heist finale [2].",
+      "Start Chapter 4 and clear its two opening missions, Ocean Beach and Another Life [1].",
+      "The trophy cannot be missed with story progress [1][4]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Vice City, Baby! unlocks after completing the first two main missions in Chapter 4 - Ocean Beach and Another Life." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Ocean Beach Walkthrough", "url": "https://www.powerpyx.com/gta-6-ocean-beach-walkthrough/", "snippet": "Ocean Beach is the 75th main mission of the story." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Vice City, Baby! Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/vice-city-baby.html", "snippet": "Official trophy page with first-unlock stats." },
+      { "n": 4, "site": "Radio Times", "title": "GTA 6 trophy guide: Full list of trophies and achievements", "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list", "snippet": "Full list of all 55 trophies and achievements." }
+    ],
+    "stage": 1
+  },
+  {
+    "id": 6,
+    "name": "Top Of The World, Ma",
+    "description": "Complete Chapter 4.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": "Chapter 4",
+    "missable": false,
+    "count": null,
+    "guide": "Complete Chapter 4 and the trophy unlocks after its final main mission, Starting From Zero [1]. The full walkthrough splits the story into 5 chapters, with a short fifth chapter after the Chapter 4 finale [2]. Keep manual saves at the chapter boundaries, since there is no mission replay [1][2].",
+    "steps": [
+      "Play Chapter 4 through its finale, Starting From Zero [1].",
+      "Keep a manual save at the chapter start and end, since nothing can be replayed [1].",
+      "The trophy pops in the mission's closing scene [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Top Of The World, Ma unlocks after completing the final main mission in Chapter 4 - Starting From Zero." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Full Walkthrough - All Missions", "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/", "snippet": "The story consists of 5 chapters and takes 60-80 hours." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Top Of The World, Ma Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/top-of-the-world-ma.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "dispute": {
+      "claim": "Where the finale sits",
+      "a": { "text": "PowerPyx roadmap: the final main mission is Chapter 4's Starting From Zero.", "src": [1] },
+      "b": { "text": "PowerPyx walkthrough: the story has 5 chapters, with more missions after Starting From Zero.", "src": [2] },
+      "call": "Treat Starting From Zero as the Chapter 4 closer; Chapter 5's missions (Bird in the Hand through The End of the Road) follow as the epilogue."
+    },
+    "stage": 1
+  },
+  {
+    "id": 7,
+    "name": "You Gotta Know When to Get Off",
+    "description": "Complete the final mission.",
+    "grade": "gold",
+    "kind": "story",
+    "chapter": "Final Mission",
+    "missable": false,
+    "count": null,
+    "guide": "Finish the final mission and the gold trophy pops automatically [1]. PowerPyx pegs the final mission as Starting From Zero, the Chapter 4 closer [1][2]. There are no mission gold medals in GTA VI, so the trophy only cares about finishing the mission [1].",
+    "steps": [
+      "Reach Starting From Zero by finishing Chapter 4's setup missions [1][2].",
+      "Complete the mission; the trophy is story-guaranteed [1].",
+      "Do not enable cheats, since cheats disable trophies and saving [1]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "You Gotta Know When to Get Off unlocks after completing the final main mission in Chapter 4 - Starting From Zero. Cannot be missed." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Full Walkthrough - All Missions", "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/", "snippet": "Main missions are pink icons; the final stretch runs through Chapter 4." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "You Gotta Know When to Get Off Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/you-gotta-know-when-to-get-off.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 1
+  },
+  {
+    "id": 8,
+    "name": "Trust",
+    "description": "Complete Breakfast Run.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": "Breakfast Run",
+    "missable": false,
+    "count": null,
+    "guide": "Complete Breakfast Run and the trophy pops automatically [1]. PowerPyx places the mission in Chapter 2 as the 39th main mission of the story [1][2]. Mobalytics describes it as a series of hold-ups run by Jason and Lucia [3].",
+    "steps": [
+      "Play Breakfast Run when it is marked in Chapter 2, after the earlier Chapter 2 missions [1][2].",
+      "Work through every hold-up in the mission chain [3].",
+      "The trophy cannot be missed with story progress [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Trust unlocks during Story Chapter 2 - Main Mission: Breakfast Run." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Breakfast Run (Check on Jason) Walkthrough", "url": "https://www.powerpyx.com/gta-6-breakfast-run-check-on-jason-walkthrough/", "snippet": "Breakfast Run (Check on Jason) is the 39th main mission in GTA 6." },
+      { "n": 3, "site": "Mobalytics", "title": "GTA 6 - Trust Trophy - Complete Breakfast Run by Josie", "url": "https://mobalytics.gg/gamebase/guides/grand-theft-auto-6-trust-trophy", "snippet": "During Chapter 2 you take part in a series of hold ups with Jason and Lucia on the Breakfast Run; unmissable." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "Trust Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/trust.html", "snippet": "First unlocked 1 Nov 2026." }
+    ],
+    "stage": 1
+  },
+  {
+    "id": 9,
+    "name": "Break the Bank",
+    "description": "Complete The Cartel Heist.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": "The Cartel Heist",
+    "missable": false,
+    "count": null,
+    "guide": "Complete The Cartel Heist and the trophy unlocks automatically [1]. PowerPyx places the mission in Chapter 3 as the 74th main mission, the payoff of a long Sinfrontera National Bank heist chain [1][2]. The chapter lists the full build-up - scoping the bank, the security expert, the practice safe and the explosives prep - before the heist itself fires [3].",
+    "steps": [
+      "Advance Chapter 3 until The Cartel Heist prep missions unlock [3].",
+      "Finish the prep chain - scope the bank, security expert, safe word, hidden charges [2][3].",
+      "Run the heist itself; the trophy pops with the mission [1][2]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Break the Bank unlocks during Story Chapter 3 - Main Mission: The Cartel Heist." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 The Cartel Heist Walkthrough", "url": "https://www.powerpyx.com/gta-6-the-cartel-heist-walkthrough/", "snippet": "The Cartel Heist is the 74th main mission, the payoff of the Sinfrontera National Bank heist chain." },
+      { "n": 3, "site": "PowerPyx", "title": "GTA 6 Full Walkthrough - All Missions", "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/", "snippet": "Chapter 3 ends with The Cartel Heist missions, from scoping the bank to starting the heist." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "Break the Bank Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/break-the-bank.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 1
+  },
+  {
+    "id": 10,
+    "name": "Family Matters",
+    "description": "Complete Child's Play.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": "Child's Play",
+    "missable": false,
+    "count": null,
+    "guide": "Complete Child's Play and the trophy unlocks automatically [1]. PowerPyx places the mission in Chapter 4 as the 94th main mission, where you rescue Rafa from his kidnappers [1][2]. It is an unmissable story trophy [1].",
+    "steps": [
+      "Advance Chapter 4 until Child's Play unlocks [2].",
+      "Rescue Rafa from the kidnappers to complete the mission [1][2].",
+      "The trophy pops with the mission [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Family Matters unlocks during Story Chapter 4 - Main Mission: Child's Play." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Child's Play (Rescue Rafa from Kidnappers) Walkthrough", "url": "https://www.powerpyx.com/gta-6-childs-play-rescue-rafa-from-kidnappers-walkthrough/", "snippet": "Child's Play (Rescue Rafa from Kidnappers) is the 94th main mission." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Family Matters Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/family-matters.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 1
+  },
+  {
+    "id": 11,
+    "name": "DWNFALL",
+    "description": "Complete Headliners.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": "Headliners",
+    "missable": false,
+    "count": null,
+    "guide": "Complete Headliners and the trophy unlocks automatically [1]. The walkthrough lists Headliners (Help With The Launch Party) as Chapter 4's 33rd mission [2]. It is an unmissable story trophy [1][3].",
+    "steps": [
+      "Play Chapter 4 until Headliners unlocks, late in the chapter [2].",
+      "Complete the launch-party mission from start to finish [1].",
+      "The trophy pops with the mission [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "DWNFALL unlocks during Story Chapter 4 - Main Mission: Headliners." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Full Walkthrough - All Missions", "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/", "snippet": "Headliners (Help With The Launch Party) is Chapter 4 mission 33." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "DWNFALL Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/dwnfall.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 1
+  },
+  {
+    "id": 12,
+    "name": "Hi-Jacked",
+    "description": "Complete VCIA Takedown.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": "VCIA Takedown",
+    "missable": false,
+    "count": null,
+    "guide": "Complete VCIA Takedown and the trophy unlocks automatically [1]. The walkthrough places the airport heist as Chapter 4's 34th mission, after the infiltration and bodybuilder setup chain [2]. It is an unmissable story trophy [1][3].",
+    "steps": [
+      "Work the Chapter 4 VCIA Takedown setup missions (Making Gainz, scope out the airport, the workouts and the catering truck) [2].",
+      "Start the airport heist and finish it [1][2].",
+      "The trophy pops with the mission [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Hi-Jacked unlocks during Story Chapter 4 - Main Mission: VCIA Takedown." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Full Walkthrough - All Missions", "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/", "snippet": "VCIA Takedown (Start the Airport Heist) is Chapter 4 mission 34, after the bodybuilder infiltration chain." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Hi-Jacked Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/hi-jacked.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 1
+  },
+  {
+    "id": 13,
+    "name": "Snow Storm",
+    "description": "Complete Operation Savage Glory.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": "Operation Savage Glory",
+    "missable": false,
+    "count": null,
+    "guide": "Complete Operation Savage Glory and the trophy unlocks automatically [1]. The walkthrough lists the mission as the 5th of Chapter 5, deep in the final act [2]. It is an unmissable story trophy [1][3].",
+    "steps": [
+      "Play through Chapter 5 until Operation Savage Glory unlocks [2].",
+      "Finish the mission; the trophy pops with it [1].",
+      "Keep your chapter saves, since nothing can be replayed [1]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Snow Storm unlocks during Story Chapter 5 - Main Mission: Operation Savage Glory." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Full Walkthrough - All Missions", "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/", "snippet": "Operation Savage Glory is the 5th mission of Chapter 5." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Snow Storm Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/snow-storm.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 1
+  },
+  {
+    "id": 14,
+    "name": "A Long Road",
+    "description": "Attain 100% Completion.",
+    "grade": "gold",
+    "kind": "story",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Reach 100% completion through the pause-menu checklist, which only becomes viewable after the story [1][2]. The requirements are lenient - roughly 60% of true completion - and nothing toward the checklist is missable [1][2]. The big chunks are any 70 of 80 challenges, all 39 gang operations, all 22 bank jobs, 15 of 15 Target Decks, 200 of 277 vehicles scanned and 100 of 255 animals studied [2][3].",
+    "steps": [
+      "Finish the story first, since the checklist unlocks under Progress > Stats > 100% Completion only after the credits [1][2].",
+      "Work the checklist in chunks: robberies, gang operations, challenges, scans and studies [2][3].",
+      "Nothing is missable, so leave the cleanup for free-roam [1].",
+      "The trophy pops when the checklist hits 100% [1][4]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "A Long Road: the 100% checklist unlocks after the story under Progress > Stats > 100% Completion; nothing is missable; requirements are lenient." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 100% Completion Checklist & Guide", "url": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/", "snippet": "The 100% Checklist unlocks after the story; progress made during the story already counts." },
+      { "n": 3, "site": "PowerPyx", "title": "GTA 6 All Challenges Guide", "url": "https://www.powerpyx.com/gta-6-all-challenges-guide/", "snippet": "Completing any 70 of 80 Challenges is required for the 100% Checklist." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "A Long Road Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/a-long-road.html", "snippet": "Official trophy page with first-unlock stats." },
+      { "n": 5, "site": "TrueTrophies", "title": "Grand Theft Auto VI trophy list drops for PlayStation 5", "url": "https://www.truetrophies.com/news/grand-theft-auto-vi-playstation-trophies", "snippet": "A Long Road is in the revealed part of the 55-trophy list." }
+    ],
+    "stage": 6
+  }
+]

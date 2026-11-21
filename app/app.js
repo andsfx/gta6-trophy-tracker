@@ -1,21 +1,36 @@
-// Leonida Trophy Roadmap - v3 citation-depth tracker (ES module, no build, no network).
-// Data: data/trophies.json. State: localStorage "gta6trophyv3".
+// Leonida Trophy Roadmap - v3 citation-depth tracker (revision pass).
+// ES module, no build, no network. Data: data/trophies.json.
+// State: localStorage "gta6trophyv3". Shot mode (?shot=1) renders a
+// deterministic demo state and never touches localStorage.
 
 const STORE_KEY = 'gta6trophyv3';
-const SHOT = new URLSearchParams(location.search).get('shot') === '1';
+const qs = new URLSearchParams(location.search);
+const SHOT = qs.get('shot') === '1';
+const SHOT_SEL = SHOT ? Number(qs.get('sel')) : NaN;
+const SHOT_SHIELD = SHOT && qs.get('shield') === '1';
 
 const data = await (await fetch('data/trophies.json')).json();
 const trophies = data.trophies;
 const meta = data.meta;
 const byId = new Map(trophies.map((t) => [t.id, t]));
 
+// Roadmap order: by stage (chapter progression), then story order (id).
+const ORDER = [...trophies].sort((a, b) => a.stage - b.stage || a.id - b.id);
+
 // ---------------------------------------------------------------- state
 
-const DEMO_EARNED = [1, 2, 3, 4, 5, 6];
-const DEMO_COUNTS = { 15: 137, 29: 1 }; // partial progress shown in the demo detail
+const DEMO_EARNED = [2, 3, 4, 5, 6, 7, 8];
+const DEMO_COUNTS = { 28: 6 }; // Positive Mental Attitude: 6 of 18 spots done
 
 function loadState() {
-  if (SHOT) return { earned: new Set(DEMO_EARNED), spoiler: false, counts: { ...DEMO_COUNTS }, selected: null };
+  if (SHOT) {
+    return {
+      earned: new Set(DEMO_EARNED),
+      spoiler: SHOT_SHIELD,
+      counts: { ...DEMO_COUNTS },
+      selected: Number.isInteger(SHOT_SEL) && byId.has(SHOT_SEL) ? SHOT_SEL : null,
+    };
+  }
   try {
     const saved = JSON.parse(localStorage.getItem(STORE_KEY) ?? 'null');
     if (saved && Array.isArray(saved.earned)) {
@@ -57,18 +72,27 @@ function el(tag, cls, text) {
   return node;
 }
 
-const gradeCounts = () => {
-  const c = { platinum: 0, gold: 0, silver: 0, bronze: 0 };
-  for (const t of trophies) c[t.grade] += 1;
-  return c;
-};
-
 const isEarned = (t) => state.earned.has(t.id);
 const hidden = (t) => state.spoiler && t.kind === 'story' && !isEarned(t);
 const displayName = (t) => (hidden(t) ? '???' : t.name);
 const displayDesc = (t) => (hidden(t) ? 'Hidden until earned' : t.description);
+const kindLabel = (kind) => ({ story: 'Story', collectible: 'Collectible', activity: 'Activity', online: 'Online' }[kind] ?? kind);
+const selectedTrophy = () => byId.get(state.selected);
 
-const ROADMAP_ORDER = [...trophies].sort((a, b) => a.stage - b.stage || a.id - b.id);
+function medal(grade, big) {
+  return el('span', `medal ${grade}${big ? ' big' : ''}`);
+}
+
+function tag(text, cls) {
+  return el('span', `tag ${cls}`, text);
+}
+
+function gradeCounts() {
+  const c = { platinum: 0, gold: 0, silver: 0, bronze: 0 };
+  for (const t of trophies) c[t.grade] += 1;
+  return c;
+}
+
 const STAGES = [
   { n: 1, title: 'The Story, Start to Finish', why: 'One playthrough of the whole story, from Gone Fishing through Chapters 1-5 and the finale. Every story trophy is automatic.' },
   { n: 2, title: 'Story Missables', why: 'One-time moments to bank during the run: Bret\u2019s hunt, Kingpin Bowling, and the criminal-profile counter.' },
@@ -80,19 +104,7 @@ const STAGES = [
   { n: 8, title: 'The Platinum', why: 'Vice Got a Price! pops the moment the other 54 trophies are earned.' },
 ];
 
-function medal(grade, big) {
-  return el('span', `medal ${grade}${big ? ' big' : ''}`);
-}
-
-function tag(text, cls) {
-  return el('span', `tag ${cls}`, text);
-}
-
-function kindLabel(kind) {
-  return { story: 'Story', collectible: 'Collectible', activity: 'Activity', online: 'Online' }[kind] ?? kind;
-}
-
-// Render "[n]" or "[n,m]" citation markers as superscripts.
+// Render "[n]" or "[n,m]" citation markers as red superscripts.
 function citedText(text) {
   const frag = document.createDocumentFragment();
   const re = /\[(\d+(?:\s*,\s*\d+)*)\]/g;
@@ -125,8 +137,6 @@ function currentRoute() {
   const hash = location.hash.replace(/^#/, '');
   if (hash === 'roadmap') return { view: 'roadmap' };
   if (hash === 'settings') return { view: 'settings' };
-  const guide = /^guide-(\d+)$/.exec(hash);
-  if (guide && byId.has(Number(guide[1]))) return { view: 'tracker', sel: Number(guide[1]) };
   return { view: 'tracker' };
 }
 
@@ -135,9 +145,10 @@ function render() {
   viewRoot.replaceChildren();
   if (route.view === 'roadmap') renderRoadmap();
   else if (route.view === 'settings') renderSettings();
-  else renderTracker(route.sel);
+  else renderTracker();
   syncNav(route.view);
-  if (SHOT) viewRoot.classList.add('shot');
+  renderProgress();
+  viewRoot.classList.toggle('shot', SHOT);
   viewRoot.scrollTop = 0;
 }
 
@@ -154,14 +165,14 @@ window.addEventListener('hashchange', render);
 function renderAudit() {
   const bar = document.getElementById('audit-bar');
   bar.replaceChildren();
+  const g = gradeCounts();
   const pieces = [
-    [String(trophies.length) + '/' + String(trophies.length), 'official name, description, grade'],
-    ['1P 2G 6S 46B', 'grade spread'],
+    [`${trophies.length}/${trophies.length}`, 'official name - description - grade'],
+    [`${g.platinum}P ${g.gold}G ${g.silver}S ${g.bronze}B`, ''],
     ['28', 'PSN-hidden'],
-    [String(meta.claims_cited) + '/' + String(meta.claims_cited), 'claims cited'],
+    [String(meta.claims_cited), 'claims cited'],
     [String(meta.backed_by_2_plus), 'backed by 2+ sources'],
-    [String(meta.pages_read), 'pages read'],
-    [String(meta.sites_read) + ' sites read ' + meta.researched_on, ''],
+    [`${meta.pages_read} pages read - ${meta.sites_read} sites read ${meta.researched_on}`, ''],
   ];
   pieces.forEach(([a, b], i) => {
     if (i > 0) bar.append(el('span', 'sep', ' \u00B7 '));
@@ -182,62 +193,68 @@ function renderProgress() {
   toggle.closest('.shield').classList.toggle('on', state.spoiler);
 }
 
+// ---------------------------------------------------------------- trophy rows
+
+// One list row: checkbox, medal, name, kind tag, MISSABLE tag, "N src".
+function makeTrophyRow(t, opts = {}) {
+  const row = el('div', `trow${isEarned(t) ? ' earned' : ''}${t.id === state.selected ? ' sel' : ''}`);
+  const box = el('input');
+  box.type = 'checkbox';
+  box.checked = isEarned(t);
+  box.disabled = opts.disabled === true;
+  box.setAttribute('aria-label', `Mark ${t.name} earned`);
+  box.addEventListener('click', (e) => e.stopPropagation());
+  box.addEventListener('change', () => {
+    if (box.checked) state.earned.add(t.id);
+    else state.earned.delete(t.id);
+    persist();
+    render();
+  });
+  row.append(box, medal(t.grade, false));
+
+  const info = el('div', 'tinfo');
+  info.append(el('div', `tname${hidden(t) ? ' spoiled' : ''}`, displayName(t)));
+  row.append(info);
+
+  const tags = el('div', 'tags');
+  tags.append(tag(kindLabel(t.kind), ''));
+  if (t.missable) tags.append(tag('Missable', 'miss'));
+  tags.append(tag(`${t.citations.length} src`, 'src'));
+  row.append(tags);
+
+  if (opts.onSelect) row.addEventListener('click', () => opts.onSelect(t));
+  return row;
+}
+
 // ---------------------------------------------------------------- tracker view
 
-let filter = 'all';
-let searchText = '';
-
-function renderTracker(selId) {
-  if (selId !== undefined) state.selected = selId;
-  else if (SHOT && state.selected === null) state.selected = 15; // demo: granular counter + citations
-  else if (state.selected === null || !byId.has(state.selected)) {
-    state.selected = ROADMAP_ORDER.find((t) => !isEarned(t))?.id ?? 1;
+function ensureSelection() {
+  if (state.selected === null || !byId.has(state.selected)) {
+    state.selected = ORDER.find((t) => !isEarned(t))?.id ?? 1;
   }
+}
+
+function renderTracker() {
+  ensureSelection();
   if (!SHOT) persist();
 
   const grid = el('div', 'tracker-grid');
 
-  // -- left column: list
+  // -- left column: the 55 rows in roadmap order
   const left = el('div', 'col');
-  left.append(el('div', 'col-head', 'The 55 trophies \u00B7 roadmap order'));
-
-  const frow = el('div', 'filter-row');
-  const filters = ['all', 'story', 'collectible', 'activity', 'missable', 'earned'];
-  const fCounts = {
-    all: trophies.length,
-    story: trophies.filter((t) => t.kind === 'story').length,
-    collectible: trophies.filter((t) => t.kind === 'collectible').length,
-    activity: trophies.filter((t) => t.kind === 'activity').length,
-    missable: trophies.filter((t) => t.missable).length,
-    earned: state.earned.size,
-  };
-  for (const f of filters) {
-    const btn = el('button', `fbtn${filter === f ? ' on' : ''}`, f);
-    btn.type = 'button';
-    btn.append(el('span', 'cnt', String(fCounts[f])));
-    btn.addEventListener('click', () => { filter = f; renderTracker(); });
-    frow.append(btn);
-  }
-  const search = el('input', 'search');
-  search.type = 'search';
-  search.placeholder = 'Search trophies\u2026';
-  search.value = searchText;
-  search.addEventListener('input', () => { searchText = search.value.trim().toLowerCase(); renderList(); });
-  frow.append(search);
-  left.append(frow);
-
+  left.append(el('div', 'col-head', `The 55 trophies \u00B7 roadmap order`));
   const list = el('div', 'tlist');
   left.append(list);
   grid.append(left);
 
-  // -- center: detail
+  // -- center column: detail
   const center = el('div', 'col');
   center.append(el('div', 'col-head', 'Trophy detail \u00B7 every step cited'));
   const detail = el('div', 'detail');
   center.append(detail);
   grid.append(center);
 
-  // -- right: next up + sources
+  // -- right column: next up + sources
   const right = el('div', 'col');
   right.append(el('div', 'col-head', 'NEXT UP \u00B7 roadmap order'));
   const nextup = el('div', 'nextup');
@@ -249,69 +266,29 @@ function renderTracker(selId) {
 
   viewRoot.append(grid);
 
-  const renderList = () => {
-    list.replaceChildren();
-    const rows = ROADMAP_ORDER.filter((t) => {
-      if (filter === 'earned') return isEarned(t);
-      if (filter === 'missable') return t.missable;
-      if (filter !== 'all') return t.kind === filter;
-      return true;
-    }).filter((t) => {
-      if (!searchText) return true;
-      return t.name.toLowerCase().includes(searchText) || t.description.toLowerCase().includes(searchText);
-    });
-
-    if (rows.length === 0) {
-      list.append(el('div', 'empty', 'Nothing matches this filter'));
-      return;
-    }
-
-    for (const t of rows) {
-      const row = el('div', `trow${isEarned(t) ? ' earned' : ''}${t.id === state.selected ? ' sel' : ''}`);
-      const check = el('label');
-      const box = el('input');
-      box.type = 'checkbox';
-      box.checked = isEarned(t);
-      box.setAttribute('aria-label', `Mark ${t.name} earned`);
-      box.addEventListener('click', (e) => e.stopPropagation());
-      box.addEventListener('change', () => {
-        if (box.checked) state.earned.add(t.id);
-        else state.earned.delete(t.id);
-        persist();
-        render();
-      });
-      check.append(box);
-      row.append(check, medal(t.grade, false));
-
-      const info = el('div');
-      info.style.minWidth = '0';
-      info.style.flex = '1';
-      info.append(el('div', 'tname', displayName(t)));
-      row.append(info);
-
-      const tags = el('div', 'tags');
-      tags.append(tag(kindLabel(t.kind), ''));
-      if (t.missable) tags.append(tag('Missable', 'miss'));
-      tags.append(tag(`${t.citations.length} src`, 'src'));
-      row.append(tags);
-
-      row.addEventListener('click', () => {
+  for (const t of ORDER) {
+    list.append(makeTrophyRow(t, {
+      onSelect: () => {
         state.selected = t.id;
         persist();
-        renderTracker();
-      });
-      list.append(row);
-    }
-  };
-  renderList();
+        render();
+      },
+    }));
+  }
+
+  if (SHOT) {
+    const sel = list.querySelector('.trow.sel');
+    if (sel) sel.scrollIntoView({ block: 'nearest' });
+  }
+
   renderDetail(detail);
   renderNextUp(nextup);
-  renderSources(sources, byId.get(state.selected));
+  renderSources(sources, selectedTrophy());
 }
 
 function renderDetail(root) {
   root.replaceChildren();
-  const t = byId.get(state.selected);
+  const t = selectedTrophy();
 
   const head = el('div', 'detail-head');
   head.append(medal(t.grade, true));
@@ -327,7 +304,7 @@ function renderDetail(root) {
   tags.append(tag(kindLabel(t.kind), ''));
   if (t.missable) tags.append(tag('Missable \u2014 one chance', 'miss'));
   tags.append(tag(`${t.citations.length} sources cited`, 'src'));
-  if (t.count) tags.append(tag(`multi-part: ${state.counts[t.id] ?? 0}/${t.count}`, 'src'));
+  if (t.count) tags.append(tag(`multi-part: ${Math.min(t.count, state.counts[t.id] ?? 0)}/${t.count}`, 'src'));
   root.append(tags);
 
   if (hidden(t)) {
@@ -337,31 +314,12 @@ function renderDetail(root) {
 
   if (t.window) {
     const w = el('div', 'missbox');
-    w.append(el('b', null, 'Missable window \u00B7 '));
+    w.append(el('b', null, 'MISSABLE WINDOW \u00B7 '));
     w.append(citedText(t.window));
     root.append(w);
   }
 
-  if (t.dispute) {
-    const d = el('div', 'dispute');
-    const head = el('div');
-    head.append(el('b', null, 'SOURCES DIFFER \u00B7 '));
-    head.append(document.createTextNode(t.dispute.claim));
-    d.append(head);
-    const a = el('div', 'row a');
-    a.append(el('span', 'dv-a', 'Version A \u00B7 '));
-    a.append(citedText(t.dispute.a.text + ' [' + t.dispute.a.src.join(',') + ']'));
-    d.append(a);
-    const b = el('div', 'row b');
-    b.append(el('span', 'dv-b', 'Version B \u00B7 '));
-    b.append(citedText(t.dispute.b.text + ' [' + t.dispute.b.src.join(',') + ']'));
-    d.append(b);
-    const call = el('div', 'call');
-    call.append(el('b', null, 'Our call: '));
-    call.append(document.createTextNode(t.dispute.call));
-    d.append(call);
-    root.append(d);
-  }
+  if (t.dispute) renderDispute(root, t.dispute);
 
   const guide = el('div', 'guide');
   guide.append(el('h3', null, 'Guide'));
@@ -373,7 +331,7 @@ function renderDetail(root) {
   root.append(guide);
 
   const stepsWrap = el('div', 'steps-wrap');
-  stepsWrap.append(el('h3', null, 'Steps'));
+  stepsWrap.append(el('h3', null, 'HOW TO EARN IT'));
   const steps = el('ol', 'steps');
   for (const s of t.steps) {
     const li = el('li');
@@ -383,37 +341,60 @@ function renderDetail(root) {
   stepsWrap.append(steps);
   root.append(stepsWrap);
 
-  if (t.count) {
-    const val = Math.min(t.count, state.counts[t.id] ?? 0);
-    const counter = el('div', 'counter');
-    counter.append(el('h3', null, `Progress \u00B7 ${val}/${t.count}`));
-    const cbar = el('div', 'cbar');
-    const fill = el('div', 'cbar-fill');
-    fill.style.width = `${Math.round((val / t.count) * 100)}%`;
-    cbar.append(fill);
-    counter.append(cbar);
-    const btns = el('div', 'cbtns');
-    const dec = el('button', null, '\u2212');
-    const inc = el('button', null, '+');
-    const valEl = el('span', 'cval', `${val} / ${t.count}`);
-    const bump = (n) => {
-      state.counts[t.id] = Math.max(0, Math.min(t.count, (state.counts[t.id] ?? 0) + n));
-      persist();
-      render();
-    };
-    dec.type = 'button';
-    inc.type = 'button';
-    dec.addEventListener('click', () => bump(-1));
-    inc.addEventListener('click', () => bump(1));
-    btns.append(dec, valEl, inc);
-    counter.append(btns);
-    root.append(counter);
-  }
+  if (t.count) renderCounter(root, t);
+}
+
+function renderDispute(root, dispute) {
+  const d = el('div', 'dispute');
+  const headRow = el('div');
+  headRow.append(el('b', null, 'SOURCES DIFFER \u00B7 '));
+  headRow.append(document.createTextNode(dispute.claim));
+  d.append(headRow);
+  const a = el('div', 'row a');
+  a.append(el('span', 'dv-a', 'Version A \u00B7 '));
+  a.append(citedText(dispute.a.text + ' [' + dispute.a.src.join(',') + ']'));
+  d.append(a);
+  const b = el('div', 'row b');
+  b.append(el('span', 'dv-b', 'Version B \u00B7 '));
+  b.append(citedText(dispute.b.text + ' [' + dispute.b.src.join(',') + ']'));
+  d.append(b);
+  const call = el('div', 'call');
+  call.append(el('b', null, 'Our call: '));
+  call.append(document.createTextNode(dispute.call));
+  d.append(call);
+  root.append(d);
+}
+
+function renderCounter(root, t) {
+  const val = Math.min(t.count, state.counts[t.id] ?? 0);
+  const counter = el('div', 'counter');
+  counter.append(el('h3', null, `Progress \u00B7 ${val}/${t.count}`));
+  const cbar = el('div', 'cbar');
+  const fill = el('div', 'cbar-fill');
+  fill.style.width = `${Math.round((val / t.count) * 100)}%`;
+  cbar.append(fill);
+  counter.append(cbar);
+  const btns = el('div', 'cbtns');
+  const dec = el('button', null, '\u2212');
+  const inc = el('button', null, '+');
+  const valEl = el('span', 'cval', `${val} / ${t.count}`);
+  const bump = (n) => {
+    state.counts[t.id] = Math.max(0, Math.min(t.count, (state.counts[t.id] ?? 0) + n));
+    persist();
+    render();
+  };
+  dec.type = 'button';
+  inc.type = 'button';
+  dec.addEventListener('click', () => bump(-1));
+  inc.addEventListener('click', () => bump(1));
+  btns.append(dec, valEl, inc);
+  counter.append(btns);
+  root.append(counter);
 }
 
 function renderNextUp(root) {
   root.replaceChildren();
-  const upcoming = ROADMAP_ORDER.filter((t) => !isEarned(t)).slice(0, 8);
+  const upcoming = ORDER.filter((t) => !isEarned(t)).slice(0, 8);
   for (const t of upcoming) {
     const row = el('div', 'nrow');
     row.append(el('span', 'stage-n', `S${t.stage}`));
@@ -424,7 +405,7 @@ function renderNextUp(root) {
     row.addEventListener('click', () => {
       state.selected = t.id;
       persist();
-      renderTracker();
+      render();
     });
     root.append(row);
   }
@@ -438,29 +419,21 @@ function renderSources(root, t) {
     src.append(el('span', 'src-n', String(c.n)));
     src.append(el('span', 'src-site', c.site + ' '));
     src.append(el('span', 'src-title', c.title));
+    const link = el('a', 'src-url', c.url);
+    link.href = c.url;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    src.append(link);
     if (c.snippet) src.append(el('span', 'src-snip', c.snippet));
-    src.append(el('span', 'src-url', c.url));
     root.append(src);
   }
 }
 
 // ---------------------------------------------------------------- roadmap view
 
-function renderRoadmap() {
-  const grid = el('div', 'roadmap-grid');
-  const left = el('div');
-  grid.append(left);
-  const right = el('div', 'col');
-  right.append(el('div', 'col-head', 'Research audit'));
-  const sites = el('div', 'audit-sites');
-  right.append(sites);
-  const note = el('div', 'audit-note');
-  right.append(note);
-  grid.append(right);
-  viewRoot.append(grid);
-
+function renderStageBlocks(root) {
   for (const stage of STAGES) {
-    const members = ROADMAP_ORDER.filter((t) => t.stage === stage.n);
+    const members = ORDER.filter((t) => t.stage === stage.n);
     const sec = el('section', 'stage');
     const head = el('div', 'stage-head');
     head.append(el('span', 'stage-num', String(stage.n).padStart(2, '0')));
@@ -468,17 +441,19 @@ function renderRoadmap() {
     const earnedInStage = members.filter(isEarned).length;
     head.append(el('span', 'stage-count', `${earnedInStage}/${members.length} earned`));
     sec.append(head);
-    if (SHOT) {
-      head.append(el('span', 'stage-why-inline', stage.why));
-    } else {
-      sec.append(el('p', 'stage-why', stage.why));
+    sec.append(el('p', 'stage-why', stage.why));
+
+    const openMissables = members.filter((t) => t.missable && !isEarned(t));
+    if (openMissables.length) {
+      sec.append(el('p', 'stage-dofirst', 'Do first: ' + openMissables.map(displayName).join(', ')));
     }
+
     const list = el('div', 'stage-list');
     for (const t of members) {
       const row = el('div', `strow${isEarned(t) ? ' earned' : ''}`);
       row.append(medal(t.grade, false));
       row.append(el('span', 'stname', displayName(t)));
-      if (t.missable) row.append(el('span', 'warnmark', '\u26A0'));
+      if (t.missable) row.append(el('span', 'miss-tag', 'MISSABLE'));
       if (t.missable && !isEarned(t)) row.append(el('span', 'dofirst-inline', 'do first'));
       row.addEventListener('click', () => {
         state.selected = t.id;
@@ -488,9 +463,11 @@ function renderRoadmap() {
       list.append(row);
     }
     sec.append(list);
-    left.append(sec);
+    root.append(sec);
   }
+}
 
+function renderSiteAudit(sites, note) {
   const siteCounts = new Map();
   for (const t of trophies) {
     for (const c of t.citations) siteCounts.set(c.site, (siteCounts.get(c.site) ?? 0) + 1);
@@ -506,59 +483,74 @@ function renderRoadmap() {
   note.append(document.createTextNode(`${meta.backed_by_2_plus} backed by 2+ sources \u00B7 `));
   note.append(el('b', null, `${meta.pages_read} pages read \u00B7 `));
   note.append(document.createTextNode(`${meta.sites_read} sites read ${meta.researched_on}.`));
-  note.append(el('br'));
-  note.append(document.createTextNode('Every claim carries inline citation markers rendered as superscripts; the per-trophy source list lives in the tracker view sidebar.'));
+}
+
+function renderRoadmap() {
+  ensureSelection();
+
+  const grid = el('div', 'roadmap-grid');
+  const left = el('div');
+  grid.append(left);
+
+  // Right rail: sources for the selected trophy + research audit.
+  const right = el('div', 'col');
+  right.append(el('div', 'col-head', 'SOURCES FOR THIS TROPHY'));
+  const sources = el('div', 'sources');
+  right.append(sources);
+  right.append(el('div', 'col-head', 'RESEARCH AUDIT'));
+  const sites = el('div', 'audit-sites');
+  right.append(sites);
+  const note = el('div', 'audit-note');
+  right.append(note);
+  grid.append(right);
+
+  viewRoot.append(grid);
+
+  renderStageBlocks(left);
+  renderSources(sources, selectedTrophy());
+  renderSiteAudit(sites, note);
 }
 
 // ---------------------------------------------------------------- settings view
 
 function renderSettings() {
-  const spoilerOn = SHOT ? true : state.spoiler;
-
   const grid = el('div', 'settings-grid');
 
+  // Left panel: spoiler shield + live preview of the list.
   const left = el('div', 'panel');
   left.append(el('h3', null, 'Spoiler shield'));
   const row = el('div', 'setting-row');
   const lab = el('div');
   lab.append(el('div', 'setting-label', 'Hide story spoilers'));
-  lab.append(el('div', 'setting-hint', 'Unearned story trophies show as ??? until you earn them.'));
+  lab.append(el('div', 'setting-hint', 'Unearned story trophies show as ??? in the tracker until you earn them.'));
   const sw = el('label', 'shield');
   const inp = el('input');
   inp.type = 'checkbox';
-  inp.checked = spoilerOn;
+  inp.checked = state.spoiler;
   inp.addEventListener('change', () => {
     state.spoiler = inp.checked;
     persist();
     render();
   });
   sw.append(inp, document.createTextNode('Shield'));
-  sw.classList.toggle('on', spoilerOn);
+  sw.classList.toggle('on', state.spoiler);
   row.append(lab, sw);
   left.append(row);
 
-  const prev = el('div', 'panel');
-  prev.style.marginTop = '8px';
-  prev.append(el('h3', null, spoilerOn ? 'Tracker preview \u2014 spoilers on' : 'Tracker preview \u2014 spoilers off'));
-  const storyOnes = trophies.filter((x) => x.kind === 'story' && !isEarned(x)).slice(0, 4);
-  const preview = storyOnes.length ? storyOnes : trophies.filter((x) => x.kind === 'story').slice(0, 4);
-  for (const t of preview) {
-    const r = el('div', 'preview-row');
-    r.append(medal(t.grade, false));
-    if (spoilerOn && !isEarned(t)) {
-      r.append(el('span', 'prev-hidden', '???'));
-      r.append(el('span', 'prev-desc', 'Hidden until earned'));
-    } else {
-      r.append(el('span', null, t.name));
-      r.append(el('span', 'prev-desc', t.description));
-    }
-    prev.append(r);
+  const prev = el('div', 'preview');
+  prev.append(el('div', 'col-head', 'The list as you will see it'));
+  const storyOnes = trophies.filter((x) => x.kind === 'story' && !isEarned(x));
+  const sample = (storyOnes.length ? storyOnes : trophies.filter((x) => x.kind === 'story')).slice(0, 6);
+  for (const t of sample) {
+    prev.append(makeTrophyRow(t, { disabled: true }));
   }
   left.append(prev);
   grid.append(left);
 
+  // Right panel: export / import / reset + audit note.
   const right = el('div', 'panel');
   right.append(el('h3', null, 'Progress backup'));
+
   const expRow = el('div', 'setting-row');
   expRow.append(el('div', 'setting-label', 'Export'));
   const expBtn = el('button', 'hbtn', 'Download JSON');
@@ -595,7 +587,7 @@ function renderSettings() {
   const about = el('div', 'about-line');
   about.append(el('b', null, 'Data: '), document.createTextNode('the official PlayStation trophy list for Grand Theft Auto VI (55 trophies, 2026-11-18).'));
   about.append(el('br'));
-  about.append(document.createTextNode('Guides were researched 20 Nov 2026: ' + meta.pages_read + ' pages across ' + meta.sites_read + ' sites, ' + meta.claims_cited + ' claims cited inline, ' + meta.backed_by_2_plus + ' backed by 2+ sources.'));
+  about.append(document.createTextNode(`Guides were researched ${meta.researched_on}: ${meta.pages_read} pages across ${meta.sites_read} sites, ${meta.claims_cited} claims cited inline, ${meta.backed_by_2_plus} backed by 2+ sources.`));
   about.append(el('br'));
   about.append(document.createTextNode('Progress, granular counters and the spoiler setting live only in this browser (localStorage). Offline, deterministic, no external assets.'));
   right.append(about);
@@ -603,6 +595,8 @@ function renderSettings() {
 
   viewRoot.append(grid);
 }
+
+// ---------------------------------------------------------------- export / import
 
 function exportProgress() {
   const payload = {

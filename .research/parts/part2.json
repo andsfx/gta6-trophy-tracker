@@ -1,0 +1,339 @@
+[
+  {
+    "id": 15,
+    "name": "Cunning Stunts",
+    "description": "Complete 250 Stunts.",
+    "grade": "silver",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": 250,
+    "guide": "Complete any 250 of the 397 stunts on offer, mixing the four categories to skip the hardest ones [1][2]. Under the Bridges runs are the quickest, while the 130 stunt jumps are the best mapped [1][2]. Track progress under Progress Menu > Activities > Stunts and by region on the map [1].",
+    "steps": [
+      "Open Progress > Activities > Stunts to see your total and per-category counts [1].",
+      "Chain the 130 stunt jumps across the map, each counted once when landed [1][2].",
+      "Add Under the Bridges flights to close the gap to 250 [1].",
+      "The trophy pops on the 250th completed stunt [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Cunning Stunts: complete any 250 of 397 stunts - 130 stunt jumps, 202 under the bridges, 40 knife flights, 25 base jumps; 300 needed for 100%." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Stunt Jump Locations", "url": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/", "snippet": "130 Stunt Jump Locations; these count toward the 250 stunts needed for Cunning Stunts." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Cunning Stunts Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/cunning-stunts.html", "snippet": "Official trophy page with first-unlock stats." },
+      { "n": 4, "site": "PlayHub", "title": "GTA 6 All Trophies & Achievements: Full List & Guide", "url": "https://playhub.com/blog/gta-6/all-trophies-and-achievements-guide-247315", "snippet": "Lists all 55 trophies and the 100% requirements." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 16,
+    "name": "Master of None",
+    "description": "Try each type of activity once.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Try each of the nine activity types once and the trophy pops on the last one [1]. The nine types are fishing, hunting, golf, shooting ranges, pool, basketball, playing a video game, winning a race or drone race, and performing a stunt [1]. Most of these get touched naturally while working the other trophies [1][4].",
+    "steps": [
+      "Check the tracker under Touchpad > Progress > Activities to see which types you still need [1].",
+      "Clear the rare ones deliberately: golf, pool and basketball [1].",
+      "The story and the 100% checklist will cover the rest automatically [1].",
+      "The trophy pops on the final unseen type [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "The trophy tracker counts 9 types of activities: Fishing, Hunting, Golf, Shooting Ranges, Pool, Basketball, Playing a Video Game, Win a Car Race / Race Challenge / Top Fun Drone Race, Perform a Stunt." },
+      { "n": 2, "site": "Space4Games", "title": "GTA 6 Trophies: All 55 Unlock Requirements", "url": "https://space4games.com/en/games-en/gta-6-trophy-guide", "snippet": "All 55 trophies and how to unlock them." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Master of None Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/master-of-none.html", "snippet": "Official trophy page with first-unlock stats." },
+      { "n": 4, "site": "PlayHub", "title": "GTA 6 All Trophies & Achievements: Full List & Guide", "url": "https://playhub.com/blog/gta-6/all-trophies-and-achievements-guide-247315", "snippet": "Lists all 55 trophies and the 100% requirements." }
+    ],
+    "stage": 3
+  },
+  {
+    "id": 17,
+    "name": "The Shootist",
+    "description": "Earn a gold medal in all Shooting Range challenges.",
+    "grade": "silver",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": 42,
+    "guide": "Earn all 42 gold medals across the 12 shooting range challenges and the trophy unlocks [1][2]. The two ranges are Griffin Shooting Range (6 challenges, 3 medals each) and Rodgers Ranch (6 challenges, 4 medals each) [2]. The golds are required for the 100% checklist as well [1][2].",
+    "steps": [
+      "Visit Griffin Shooting Range and clear its 6 challenges at gold [2].",
+      "Move to Rodgers Ranch and gold its 6 challenges [2].",
+      "Track the 42-medal total from the range menu [1][2].",
+      "The trophy pops on the 42nd gold [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "The Shootist: 12 shooting range challenges across 2 ranges with 42 gold medals total." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Shooting Range Gold Medal Challenges", "url": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/", "snippet": "12 Shooting Range Challenges with 42 Gold Medals; Griffin has 6 challenges x 3 medals, Rodgers Ranch has 6 x 4; all golds unlock The Shootist." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "The Shootist Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/the-shootist.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 18,
+    "name": "Top Fun",
+    "description": "Win a Top Fun Drone Race at every location.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": 14,
+    "guide": "Win one Top Fun Drone Race at each of the 14 locations and the trophy unlocks [1][2]. Winning one race ticks the location permanently, and all 42 races across the 14 sites feed the 100% checklist [1][2].",
+    "steps": [
+      "Filter the map for Top Fun Drones to see the blue icons; they mark within 100 meters [2].",
+      "Win one race per location to tick it permanently [1][2].",
+      "The trophy pops when the 14th location is won [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Top Fun: win a drone race at all 14 locations; 42 drone races exist." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Top Fun Drone Race Time Trial Locations", "url": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/", "snippet": "42 Top Fun Drone Races across 14 locations; winning 1 race at each location unlocks Top Fun; finishing all 42 is needed for 100%." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Top Fun Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/top-fun.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 19,
+    "name": "Earn Cash, Not Kudos",
+    "description": "Win 20 different races.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": 20,
+    "guide": "Win 20 different races and the trophy unlocks [1]. There are 40 unique race locations, so you can skip the 20 hardest ones [1][2]. Winning any 30 of 40 feeds the 100% checklist at the same time [2].",
+    "steps": [
+      "Open the race list and pick the shortest street races first [2].",
+      "Win 20 distinct events; checkpoint rewinds do not void a win [1][2].",
+      "The trophy pops on the 20th different win [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Win 20 different races; 40 unique race locations exist." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Unique Race Locations (Racing Activities)", "url": "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/", "snippet": "40 Unique Race Locations; winning 20 unlocks Earn Cash, Not Kudos; any 30 of 40 needed for 100%." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Earn Cash, Not Kudos Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/earn-cash-not-kudos.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 20,
+    "name": "Baited My Tackle",
+    "description": "Beat Cal in a fishing challenge.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": true,
+    "count": null,
+    "guide": "Beat Cal in his fishing competition by landing a fish bigger than the one he catches [1][3]. The quest opens after the Chapter 1 mission Feng Shui, when Cal texts a purple fishing marker west of Key Lento [1][2]. PowerPyx lists no missable flag for the quest, and the video guide calls it an early-game catch [1][3].",
+    "steps": [
+      "Play Chapter 1's Feng Shui (Meet Cal), the 10th main mission [2].",
+      "Wait for Cal's text and follow the purple fishing marker west of Key Lento [1].",
+      "Land a fish bigger than Cal's to win the challenge [1][3].",
+      "The trophy pops when the quest finishes [1][4]."
+    ],
+    "window": "Do the quest as soon as Cal's text marks it west of Key Lento [1]; if it is skipped, the sources still list the questline as available later, so this guide keeps it on the cleanup list only as a safety net [1][3].",
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "After Chapter 1's Feng Shui (Meet Cal), Cal texts a purple fishing icon west of Key Lento; do this quest to unlock the trophy." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Feng Shui (Meet Cal) Walkthrough", "url": "https://www.powerpyx.com/gta-6-feng-shui-meet-cal-walkthrough/", "snippet": "Feng Shui (Meet Cal) is the 10th main mission of the story." },
+      { "n": 3, "site": "YouTube", "title": "Grand Theft Auto 6 - Baited My Tackle Trophy Guide (+ Commentary)", "url": "https://www.youtube.com/watch?v=BsjYATvwKrg", "snippet": "Beat Cal in a fishing competition by catching a fish bigger than his; tied to Cal's quest line, available very early." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "Baited My Tackle Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/baited-my-tackle.html", "snippet": "First unlocked 28 Oct 2026." }
+    ],
+    "stage": 7
+  },
+  {
+    "id": 21,
+    "name": "Stick Fiddler",
+    "description": "Complete an arcade game.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Finish all levels of any one of the four arcade games and the trophy unlocks [1][2]. Three of the four games play on your home TV console from Chapter 1, and Bang For Your Buck lives in arcade cabinets around the world [1][2]. You only need to reach the end of one game, not every challenge [1].",
+    "steps": [
+      "Pick any of the four games; Tenebrae Lux plays at your home console from Chapter 1 [1][2].",
+      "Play it at the home TV or at any arcade cabinet [2].",
+      "Reach the end screen of the game once [1][2].",
+      "The trophy pops on the finish screen [1][4]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "4 arcade games: Tenebrae Lux, Street Trash III, Time Jackers Rewind, Bang For Your Buck; finish all levels of any one game." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Video Game Locations (Arcade Games)", "url": "https://www.powerpyx.com/gta-6-all-video-game-locations/", "snippet": "4 playable video games; finishing all levels of one game unlocks Stick Fiddler; starting and exiting is enough for 100%." },
+      { "n": 3, "site": "Mobalytics", "title": "GTA6 - Stick Fiddler Trophy", "url": "https://mobalytics.gg/gamebase/guides/grand-theft-auto-6-stick-fiddler-trophy", "snippet": "Per-trophy page for Stick Fiddler." },
+      { "n": 4, "site": "YouTube", "title": "STICK FIDDLER Achievement Guide (GTA 6)", "url": "https://www.youtube.com/watch?v=-gDHOYIDdHk", "snippet": "Kles video: how to unlock the Stick Fiddler achievement." }
+    ],
+    "stage": 3
+  },
+  {
+    "id": 22,
+    "name": "Road to Rehabilitation",
+    "description": "Complete the final mission for Andy.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Complete Andy's five-quest strand as Lucia and the trophy unlocks on the final mission, Puff Puff Pass (Meet at the Warehouse) [1][2]. The questline is marked in Chapter 3 in Belville after Andy calls and texts her address [1]. It stays available after the story in free-roam [1].",
+    "steps": [
+      "Play as Lucia in Chapter 3 and answer Andy's call to mark the questline in Belville [1].",
+      "Clear the chain: Climbing the Cellerichain, Pay the Cellerica Fee, Peach!, Read the Label [1].",
+      "Finish with Puff Puff Pass (Meet at the Warehouse) [1][2].",
+      "The trophy pops when the strand-complete screen lands [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Andy's questline is Lucia-exclusive, marked in Chapter 3 in Belville; complete 5 quests ending with Puff Puff Pass (Meet at the Warehouse)." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Puff Puff Pass (Meet at the Warehouse) Walkthrough", "url": "https://www.powerpyx.com/gta-6-puff-puff-pass-meet-at-the-warehouse-walkthrough/", "snippet": "Puff Puff Pass is the 5th and final Andy quest." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Road to Rehabilitation Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/road-to-rehabilitation.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 6
+  },
+  {
+    "id": 23,
+    "name": "This Was No Boat Accident",
+    "description": "Complete the final mission for Kenton.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Complete Kenton's treasure-diving strand and the trophy unlocks [1]. The questline opens after the Chapter 1 mission Island Dreams, marked by the green KR icon in Key Lento, and runs through 7 shipwreck dives [1][2]. Kenton may pause between chapters but always returns, so nothing here is missable [1].",
+    "steps": [
+      "Do Island Dreams (Work for Kenton) in Chapter 1 [2].",
+      "Clear each purple treasure-chest dive he marks, using the metal detector on the ocean floor [1].",
+      "Turn in all 7 shipwreck sets; track progress under Progress > Characters > Kenton Rees [1].",
+      "The trophy pops with the final hand-in [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Kenton's questline is marked in Chapter 1 by the green KR icon in Key Lento; clear 7 shipwreck treasure dives." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Full Walkthrough - All Missions", "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/", "snippet": "Island Dreams (Work for Kenton) is Chapter 1 mission 10." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "This Was No Boat Accident Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/this-was-no-boat-accident.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 6
+  },
+  {
+    "id": 24,
+    "name": "The Lone Rider",
+    "description": "Complete the final mission for Billy.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Complete Billy's five-quest strand and the trophy unlocks on the finale, Hometown Heroes [1][2]. The questline is marked after Chapter 2's Coffee Break at the Thrillbilly Mudclub in Kelly County [1][3]. All five quests stay available after the story [1].",
+    "steps": [
+      "Finish Chapter 2's Coffee Break to unlock the strand [1][3].",
+      "Clear the chain: Thrillbillies, Twist Wrist Smash Grab, Mall Rats, The Impaler [1].",
+      "Close with Hometown Heroes (Join Billy on a Job) [1][2].",
+      "The trophy pops when the strand completes [1][2]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Billy's questline marks after Chapter 2's Coffee Break at Thrillbilly Mudclub in Kelly County; 5 quests ending with Hometown Heroes." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Hometown Heroes Walkthrough", "url": "https://www.powerpyx.com/gta-6-hometown-heroes-walkthrough/", "snippet": "Hometown Heroes (Join Billy on a Job) is the final Billy quest." },
+      { "n": 3, "site": "PowerPyx", "title": "GTA 6 Coffee Break Walkthrough", "url": "https://www.powerpyx.com/gta-6-coffee-break-walkthrough/", "snippet": "Coffee Break is the 40th main mission and unlocks free-roam together." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "The Lone Rider Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/the-lone-rider.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 6
+  },
+  {
+    "id": 25,
+    "name": "Strangers & Freaks",
+    "description": "Complete 8 mission strands for strangers across the state of Leonida.",
+    "grade": "silver",
+    "kind": "story",
+    "chapter": null,
+    "missable": false,
+    "count": 8,
+    "guide": "Complete 8 mission strands and the trophy unlocks, but only certain questlines count toward it [1][2]. The confirmed counters are Kirk, Kyle, Yago and Pilot Pete, while the character strands with their own trophies - Kenton, Bret, Andy, Billy, Tyrone - do not count here [1][2]. Watch the trophy tracker in the trophy list to see how many have registered [1].",
+    "steps": [
+      "Clear Kirk's 3-quest Skunk Ape chain, startable in Chapter 1 [2].",
+      "Clear Kyle's 3-quest chain in Chapter 2 [2].",
+      "Clear Yago's 4-quest racing chain in Chapter 3 [2].",
+      "Clear Pilot Pete's deliveries in Chapter 4 [2].",
+      "The trophy pops when the 8th counted strand ends [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Completing 8 mission strands unlocks Strangers & Freaks; only certain questlines count - Moses, Tyrone, Yasmani, Andy, Billy, Eddie etc. do not." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Strangers & Freaks Side Missions", "url": "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/", "snippet": "The questlines that count are Kirk, Kyle, Yago and Pilot Pete; the others have their own trophies or nothing." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Strangers & Freaks Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/strangers-freaks.html", "snippet": "Official trophy page with first-unlock stats." },
+      { "n": 4, "site": "TrueTrophies", "title": "Grand Theft Auto VI trophy list drops for PlayStation 5", "url": "https://www.truetrophies.com/news/grand-theft-auto-vi-playstation-trophies", "snippet": "Strangers & Freaks: Complete 8 mission strands for strangers across the state of Leonida." }
+    ],
+    "stage": 6
+  },
+  {
+    "id": 26,
+    "name": "Supply & Demand",
+    "description": "Complete the final mission for Randy.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Complete Randy's Wish List and the trophy unlocks [1]. The list of 16 sports cars opens after Chapter 3's Clonin' Keys, Makin' GS, which also hands you the Key Cloner [1][2]. The deliveries can all be finished after the story [1].",
+    "steps": [
+      "Finish Clonin' Keys, Makin' GS to unlock the Key Cloner and Randy's list [1][2].",
+      "Scan cars with the WAiNK app to check them against the wish list [1].",
+      "Deliver all 16 wanted sports cars to Randy's green RK garage west of Vice City [1].",
+      "The trophy pops with the 16th delivery [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Randy's Wish List marks after Chapter 3's Clonin' Keys, Makin' GS; deliver the 16 sports cars on his list." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Clonin' Keys, Makin' Gs (Steal the Zorrusso for Randy) Walkthrough", "url": "https://www.powerpyx.com/gta-6-clonin-keys-makin-gs-steal-the-zorrusso-for-randy-walkthrough/", "snippet": "Clonin' Keys unlocks the Key Cloner and starts Randy's Wish List." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Supply & Demand Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/supply-demand.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 6
+  },
+  {
+    "id": 27,
+    "name": "Spin On This!",
+    "description": "Complete the final mission for Tyrone.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Complete Tyrone's lab-war strand as Jason and the trophy unlocks on the finale, Spin On This (Shut Down the Labs) [1][3]. The questline is marked after Chapter 3's Here, Kitty Kitty and stays available after the story [1]. The 14 Kitty Litter labs must fall before the finale opens [1][2].",
+    "steps": [
+      "As Jason, play Chapter 3's Here, Kitty Kitty to mark the strand [1].",
+      "Destroy Kitty Litter labs until Tyrone calls his second quest [1][2].",
+      "Finish Spin On This (Shut Down the Labs) [1][3].",
+      "The trophy pops with the finale [1]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Tyrone's questline marks after Chapter 3's Here, Kitty Kitty; Jason only; destroy Kitty Litter labs, then the finale Spin On This (Shut Down the Labs)." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Kitty Litter Lab Locations", "url": "https://www.powerpyx.com/gta-6-all-kitty-litter-lab-locations/", "snippet": "14 Kitty Litter Lab locations; destroying them is required for Tyrone's side missions." },
+      { "n": 3, "site": "PowerPyx", "title": "GTA 6 Spin On This (Shut Down the Labs) Walkthrough", "url": "https://www.powerpyx.com/gta-6-spin-on-this-shut-down-the-labs-walkthrough/", "snippet": "Spin On This (Shut Down the Labs) is the Tyrone finale." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "Spin On This! Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/spin-on-this.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 6
+  },
+  {
+    "id": 28,
+    "name": "Positive Mental Attitude",
+    "description": "Meditate at every spot across Leonida.",
+    "grade": "bronze",
+    "kind": "collectible",
+    "chapter": null,
+    "missable": false,
+    "count": 18,
+    "guide": "Meditate at all 18 spots across Leonida's 10 locations and the trophy unlocks [1][2]. Each spot counts twice if you sit both Jason and Lucia through it, but the trophy wants the spots, not 36 sits [1][2]. The very first meditation at Jason's house is Chapter 1 exclusive and the one risk on the list [1][3].",
+    "steps": [
+      "In Chapter 1, the morning after Down to Earth, talk to Lucia in the kitchen and follow her to the balcony [1][3].",
+      "Choose Accept to bank the Chapter 1 exclusive meditation [1].",
+      "Sweep the other 17 spots across the 10 locations, tracking under Progress > Collections > Exploration > Meditations [1][2].",
+      "The trophy pops on the 18th spot [1][4]."
+    ],
+    "window": "The Jason's-house balcony meditation only exists during Chapter 1 [1][2]; talk to Lucia in the kitchen the morning after Down to Earth, follow her to the balcony and choose Accept [1][3].",
+    "dispute": {
+      "claim": "Is the Chapter 1 meditation required?",
+      "a": { "text": "PowerPyx roadmap: flags it as the only potentially missable trophy step and it still adds +1 to the counter.", "src": [1] },
+      "b": { "text": "PowerPyx meditation page: still undergoing confirmation whether the missable Chapter 1 meditation is required, and 100% only needs 15 of 18.", "src": [2] },
+      "call": "Do the balcony meditation the morning after Down to Earth; it takes a minute and removes all doubt."
+    },
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "18 Meditation Spots across 10 locations; the first meditation at Jason's house in Chapter 1 is potentially missable and unclear if required." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Meditation Spot Locations", "url": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/", "snippet": "18 Meditations across 10 locations; 15 of 18 needed for 100%; the Chapter 1 Jason's House meditation is missable; each spot can count +2 with both characters." },
+      { "n": 3, "site": "PowerPyx", "title": "GTA 6 Down to Earth Walkthrough", "url": "https://www.powerpyx.com/gta-6-down-to-earth-walkthrough/", "snippet": "Down to Earth is the 14th main mission; the morning after, Lucia meditates on the balcony." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "Positive Mental Attitude Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/positive-mental-attitude.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 4
+  }
+]

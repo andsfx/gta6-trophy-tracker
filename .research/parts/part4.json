@@ -1,0 +1,313 @@
+[
+  {
+    "id": 43,
+    "name": "Pest Control",
+    "description": "Rob an Illegal Operation belonging to each gang.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Rob one illegal operation from each of the 9 gangs, and the trophy unlocks [1][2]. The 39 operations are marked by yellow icons as you get near them, and the 100% checklist wants all 39 [1][2]. Track each gang under Progress > Gangs [1].",
+    "steps": [
+      "Open Progress > Gangs to see which gang you still owe a hit [1].",
+      "Raid one yellow operation icon per gang [1][2].",
+      "The trophy pops when the ninth gang's operation falls [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "9 gangs with 39 illegal operations; complete 1 operation per gang for the trophy; all 39 needed for 100%." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Illegal Gang Operations Locations", "url": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/", "snippet": "39 Illegal Gang Operation Locations; looting all of them is required for the 100% checklist." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Pest Control Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/pest-control.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 44,
+    "name": "In The Beginning…",
+    "description": "Enjoy a cocktail with a view on Ocean Beach.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": null,
+    "missable": true,
+    "count": null,
+    "guide": "Enjoy a cocktail with an Ocean Beach view and the trophy unlocks [1]. Head to the Ocean View Rooftop Bar, buy an Apple Martini and drink it while standing next to the bar [1][2]. The sources list no hard cutoff for the visit [1][2].",
+    "steps": [
+      "Go to the Ocean View Rooftop Bar on Ocean Beach [1][2].",
+      "Buy the Apple Martini specifically [1][2].",
+      "Drink it standing next to the bar; the trophy pops as you finish the glass [1][3]."
+    ],
+    "window": "If the bar visit is left for a later chapter it stays available, since no source marks a deadline [1][2]; to be safe against our one-chance flag, do it on the first evening you walk Ocean Beach after Chapter 3 [1].",
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Go to Ocean View Rooftop Bar and buy an Apple Martini; drink it standing next to the bar to unlock." },
+      { "n": 2, "site": "YouTube", "title": "GTA 6 - In The Beginning… Trophy Guide / Achievement Guide", "url": "https://www.youtube.com/watch?v=dtyMTdma2J8", "snippet": "PowerPyx video: Ocean View Rooftop Bar, Apple Martini, drink next to the bar." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "In The Beginning… Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/in-the-beginning.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 7
+  },
+  {
+    "id": 45,
+    "name": "Capital Offense",
+    "description": "Smash your way out of a vehicle showroom in classic style.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "Smash your way out of a vehicle showroom and the trophy unlocks [1]. The car must be the blue Banshee in the south Vice City showroom, hacked with the Key Cloner from Chapter 3's Clonin' Keys, Makin' GS [1][2]. Only this specific Banshee counts - it is a GTA III easter egg [1][2].",
+    "steps": [
+      "Earn the Key Cloner in Chapter 3's Clonin' Keys, Makin' GS [1][3].",
+      "Visit the showroom in the south of Vice City and hack the blue Banshee [1][2].",
+      "Drive forward through the showroom window and keep going down the street [1][2].",
+      "The pop is slightly delayed, landing once you are away from the store [1]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Steal the blue Banshee from the showroom in the south of Vice City after getting the Key Cloner; drive it through the window; only this car counts." },
+      { "n": 2, "site": "YouTube", "title": "GTA 6 - Capital Offense Trophy Guide / Achievement Guide (Banshee Car & Vehicle Showroom Location)", "url": "https://www.youtube.com/watch?v=tsWwtBxLY5g", "snippet": "PowerPyx video: blue Banshee, south Vice City showroom, Key Cloner required." },
+      { "n": 3, "site": "PowerPyx", "title": "GTA 6 How to Get Key Cloner", "url": "https://www.powerpyx.com/gta-6-how-to-get-key-cloner/", "snippet": "The Key Cloner hacks high-end cars and is an automatic story unlock." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "Capital Offense Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/capital-offense.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 3
+  },
+  {
+    "id": 46,
+    "name": "Let’s Go Bowling",
+    "description": "Follow-through at the Kolt & Associates' bowling alley.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": null,
+    "missable": true,
+    "count": null,
+    "guide": "Follow through at Kingpin Bowling and the trophy unlocks [1]. The alley is a gang operation in Port Gellhorn, marked during Chapter 2's optional mission Hit Kingpin Bowling, and you must lift all three key valuables - the luxury watch, the Gutterball Moreland 850 shotgun and the safe loot [1][2]. The trophy pops after you escape the police, not on the third item [1].",
+    "steps": [
+      "Buy sticky bombs from Ammu-Nation, then take the Chapter 2 optional mission Hit Kingpin Bowling [1][2].",
+      "Grab the luxury watch in the south-east office [1].",
+      "Grab the Gutterball Moreland 850 shotgun in the north-east corner [1].",
+      "Blow the safe in the north-east hallway and take its loot, then escape the police [1].",
+      "The trophy pops once the heat clears [1][3]."
+    ],
+    "window": "PowerPyx says the robbery icon respawns, so missing an item never locks the trophy [1][2]; our flag keeps it as a Chapter 2 window, so grab all three valuables on the first visit to be safe [1][2].",
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Steal all 3 key valuables at Kingpin Bowling, a gang operation in Port Gellhorn; blow the safe with sticky bombs; the trophy pops after escaping police; respawns make it not missable." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Hit Kingpin Bowling Walkthrough", "url": "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/", "snippet": "Hit Kingpin Bowling is an optional mission marked during Chapter 2." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Let's Go Bowling Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/lets-go-bowling.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 2
+  },
+  {
+    "id": 47,
+    "name": "Personal Best",
+    "description": "A partnership with mass appeal.",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": null,
+    "missable": true,
+    "count": null,
+    "guide": "Reach maximum strength with both characters at the same time, and the trophy unlocks [1]. Train at any fitness club after Chapter 2's Coffee Break, when the pair can go together [1][2]. While one character actively works out, the other trains automatically, doubling your progress [1].",
+    "steps": [
+      "Finish Coffee Break to unlock partner free-roam [2].",
+      "Buy a fitness-club membership and check Strength under Touchpad > Jason & Lucia [1].",
+      "Train both characters to max, always bringing the partner along for double progress [1].",
+      "The trophy pops when both hit maximum strength [1][3]."
+    ],
+    "window": "No source marks a cutoff, since gyms stay open after the story [1]; to respect our one-chance flag, start joint gym sessions as soon as partner free-roam unlocks after Coffee Break [1][2].",
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Have maximum strength with both Jason and Lucia at the same time; gym memberships; working out with one character trains the other automatically." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 Coffee Break Walkthrough", "url": "https://www.powerpyx.com/gta-6-coffee-break-walkthrough/", "snippet": "Coffee Break unlocks free-roam together." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Personal Best Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/personal-best.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 7
+  },
+  {
+    "id": 48,
+    "name": "Actions Speak Louder",
+    "description": "Choices made (for better or worse).",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": null,
+    "missable": true,
+    "count": null,
+    "guide": "Perform 500 actions that affect your criminal profile, and the trophy unlocks [1]. Every robbery, stealth clear, takedown and escape feeds the counter, and the trophy list shows your progress out of 500 [1]. Most players bank it passively while working the 100% checklist [1].",
+    "steps": [
+      "Turn on Settings > UI > HUD Notifications > Criminal Profile [1].",
+      "Play normally - robberies, clean escapes and combat all add actions [1].",
+      "If short at the end, farm by running over civilians and cops with a car [1].",
+      "The trophy pops at 500 actions [1][3]."
+    ],
+    "window": "The counter runs the whole game and nothing expires [1]; our flag treats the story run as the window, so keep profile notifications on and let every mission feed the 500 [1][2].",
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Perform 500 actions that affect your criminal profile; enable Criminal Profile notifications; farming via running over civilians works if still short." },
+      { "n": 2, "site": "TrueTrophies", "title": "Grand Theft Auto VI trophy list drops for PlayStation 5", "url": "https://www.truetrophies.com/news/grand-theft-auto-vi-playstation-trophies", "snippet": "Actions Speak Louder is one of the 28 secret trophies on the list." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Actions Speak Louder Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/actions-speak-louder.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 2
+  },
+  {
+    "id": 49,
+    "name": "Bad Luck, I Guess",
+    "description": "Second time's the charm.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": null,
+    "guide": "The trophy is the second time's-the-charm robbery of the Prologue's Payday Loans store [2]. Return as Lucia after Chapter 3's Credit Check, rob the same store in Vice City - Little Cuba and get away on foot, not in a vehicle [2]. The roadmap text page still lists the method as unconfirmed, but PowerPyx's own video guide spells out the full routine [1][2].",
+    "steps": [
+      "Note the Payday Loans store Lucia robs during the Prologue [2].",
+      "Finish Chapter 3's Credit Check (Meet Raul's Crew) to unlock Payday Loans robberies [2].",
+      "As Lucia, alone, rob the same Little Cuba store again [2].",
+      "Escape on foot - a vehicle exit voids it - and the trophy pops [2][3]."
+    ],
+    "dispute": {
+      "claim": "Is the unlock method known?",
+      "a": { "text": "PowerPyx roadmap text: the trophy is currently unknown, believed related to the Payday Loans store from the Prologue.", "src": [1] },
+      "b": { "text": "PowerPyx YouTube guide: full method - return as Lucia after Credit Check, rob the Little Cuba Payday Loans again and escape on foot.", "src": [2] },
+      "call": "Follow the video method; it matches the roadmap's hunch and is the fresher of the two sources."
+    },
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Currently unknown; believed related to the Payday Loans store from the Prologue, possibly robbing it again." },
+      { "n": 2, "site": "YouTube", "title": "GTA 6 (Grand Theft Auto VI) - Bad Luck, I Guess Trophy Guide / Achievement Guide", "url": "https://www.youtube.com/watch?v=N5chdGZVzGQ", "snippet": "PowerPyx video: during the Prologue Lucia robs a Payday Loans store; return later as Lucia, rob it again, escape on foot." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Bad Luck, I Guess Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/bad-luck-i-guess.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 50,
+    "name": "The Truth Is Out There",
+    "description": "What the hell just happened?",
+    "grade": "bronze",
+    "kind": "story",
+    "chapter": null,
+    "missable": true,
+    "count": null,
+    "guide": "Complete the UFO easter egg and the trophy unlocks [1][2]. The spot is the road north-west of Starlet Motel in Kelly County, at night after 2:00 AM, and you must come solo [1][2]. The spawn is slightly random, so keep circling until the blinking car appears [1][2].",
+    "steps": [
+      "At night after 2:00 AM, drive alone to the road north-west of Starlet Motel in Kelly County [1][2].",
+      "If no blinking car is parked, drive away and return until one spawns [2].",
+      "Follow the path into the woods to the UFO and approach the blue light [1][2].",
+      "Talk to the abducted woman, walk her back to her car, and the trophy unlocks [1][2]."
+    ],
+    "window": "The trigger only appears at night after 2:00 AM, solo [1][2]; a no-show night never locks the trophy, but only a solo night visit at that road can fire it [1].",
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 UFO Aliens Easter Egg Location", "url": "https://www.powerpyx.com/gta-6-ufo-aliens-easter-egg-location/", "snippet": "UFO at the road north-west of Starlet Motel in Kelly County, at night after 2:00 AM, solo, slightly random; a blinking car marks the trigger." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Obtained by completing the UFO Easter Egg; blinking car; if absent, drive away and come back; help the abducted woman to unlock." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "The Truth Is Out There Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/the-truth-is-out-there.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 7
+  },
+  {
+    "id": 51,
+    "name": "Ten Pin",
+    "description": "Bowl 'em over with a melee drive-by.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": 10,
+    "guide": "Bowl over 10 pedestrians with melee drive-by kicks within 60 seconds, and the trophy unlocks [1][2]. Ride any motorcycle or push bike through a crowded strip and kick as you pass [1][2]. The counter resets if the 60-second window lapses, so keep the bike moving [1].",
+    "steps": [
+      "Take a motorcycle or push bike to Ocean Beach or downtown Vice City [1][2].",
+      "Kick pedestrians with the melee button while riding past them [1][2].",
+      "Chain 10 knockdowns inside 60 seconds [1].",
+      "The trophy pops on the tenth knockdown [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Drive any bike and kick 10 pedestrians within 60 seconds; crowded areas like Vice City or Ocean Beach." },
+      { "n": 2, "site": "YouTube", "title": "GTA 6 (Grand Theft Auto VI) - Ten Pin Trophy Guide / Achievement Guide", "url": "https://www.youtube.com/watch?v=KMbw-uobKrk", "snippet": "PowerPyx video: motorcycle or push bike, kick 10 pedestrians within 60 seconds." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Ten Pin Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/ten-pin.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 52,
+    "name": "Dime on the Dollar",
+    "description": "Earn $250,000 laundering Marked Bills through your contacts.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": 250000,
+    "guide": "Launder $250,000 of Marked Bills through your contacts, and the trophy unlocks [1]. The Dye Pack Jammer from Chapter 3's Credit Check makes marked bills sellable, and fences take the cash with Yasmani paying the most [1][3]. The total is cumulative across all robberies, so no single $250,000 run is needed [1].",
+    "steps": [
+      "Finish Credit Check (Meet Raul's Crew) in Chapter 3 [1][3].",
+      "Rob banks and Payday Loans to build up marked bills [1].",
+      "Sell the bills to a fence, preferring Yasmani in Vice City [1][2].",
+      "The trophy pops when the lifetime washed total crosses $250,000 [1][4]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "After Chapter 3's Credit Check you get the Dye Pack Jammer to launder marked bills; deliver $250,000 total in marked bills to a Fence; Yasmani pays the most." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Fence Locations (How to Fence Stolen Goods)", "url": "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/", "snippet": "Sell stolen narcotics, jewelry and marked bills at fences." },
+      { "n": 3, "site": "PowerPyx", "title": "GTA 6 Credit Check (Meet Raul's Crew) Walkthrough", "url": "https://www.powerpyx.com/gta-6-credit-check-meet-rauls-crew-walkthrough/", "snippet": "Credit Check is the 59th main mission and unlocks the Dye Pack Jammer." },
+      { "n": 4, "site": "PlayStationTrophies", "title": "Dime on the Dollar Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/dime-on-the-dollar.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 53,
+    "name": "Treat Yo Self",
+    "description": "Spend $100,000 across all shops.",
+    "grade": "bronze",
+    "kind": "activity",
+    "chapter": null,
+    "missable": false,
+    "count": 100000,
+    "guide": "Spend $100,000 across the shops and the trophy unlocks [1]. Guns, car mods and tattoos move the meter fastest because they cost the most [1][2]. The spend is cumulative across every shop type [1].",
+    "steps": [
+      "Spend at Ammu-Nation on guns and armor in big chunks [1].",
+      "Mod cars at the 14 mod shops for the most expensive upgrades [1][2].",
+      "Top up with tattoos and clothing until the total passes $100,000 [1].",
+      "The trophy pops when cumulative spending crosses the line [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "Spend a total of $100,000 across all types of shops; guns, car mods and tattoos are the fastest spend." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Mod Shops Locations", "url": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/", "snippet": "14 Mod Shop Locations where you can tune your car." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Treat Yo Self Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/treat-yo-self.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 5
+  },
+  {
+    "id": 54,
+    "name": "Little Boxes",
+    "description": "Purchase all garage properties.",
+    "grade": "bronze",
+    "kind": "collectible",
+    "chapter": null,
+    "missable": false,
+    "count": 8,
+    "guide": "Buy all 8 purchasable garage properties and the trophy unlocks [1][2]. The garages cost $160,000 combined and become available after Chapter 2's Daily Driver, when the Vice City Real Estate app lands on your phone [1][2]. The 4 story-related garages do not count [1].",
+    "steps": [
+      "Finish Chapter 2's Daily Driver (Steal the Crawler for Moses) to unlock the real-estate app [1].",
+      "Fund the buys with robberies, which pay best from Chapters 3-4 [1].",
+      "Buy all 8 purchasable garages through the app [1][2].",
+      "The trophy pops when the eighth deed clears [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "8 purchasable garages (4 more are story-related); $160,000 total; the Vice City Real Estate app unlocks after Chapter 2's Daily Driver." },
+      { "n": 2, "site": "PowerPyx", "title": "GTA 6 All Garage Locations", "url": "https://www.powerpyx.com/gta-6-all-garage-locations/", "snippet": "12 garages: 8 purchasable and 4 story-related; buying all 8 purchasable garages unlocks Little Boxes." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "Little Boxes Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/little-boxes.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 4
+  },
+  {
+    "id": 55,
+    "name": "On the Spot",
+    "description": "Register 10 vehicles to the Scooter Bros app.",
+    "grade": "bronze",
+    "kind": "collectible",
+    "chapter": null,
+    "missable": false,
+    "count": 10,
+    "guide": "Register 10 vehicles to the Scooter Bros app, and the trophy unlocks [1]. The app appears after Chapter 2's Moses mission, but registrations need garage parking spots, so buy garages first [1]. Drive stolen vehicles to Moses in Port Gellhorn, then Respray and Register each one [1].",
+    "steps": [
+      "Finish Chapter 2's Moses (Take A Vehicle to Moses) to get the Scooter Bros app [1].",
+      "Buy garages so you hold at least 10 parking spots [1].",
+      "Drive stolen vehicles to Moses and pick Respray, then Register [1].",
+      "Cheap low-end cars keep the registration fees small; the trophy pops on the tenth [1][3]."
+    ],
+    "citations": [
+      { "n": 1, "site": "PowerPyx", "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "snippet": "The Scooter Bros app arrives after Chapter 2's Moses; buy garages for parking spots, drive stolen vehicles to Moses in Port Gellhorn and use Respray + Register." },
+      { "n": 2, "site": "TrueTrophies", "title": "Grand Theft Auto VI trophy list drops for PlayStation 5", "url": "https://www.truetrophies.com/news/grand-theft-auto-vi-playstation-trophies", "snippet": "On the Spot is one of the revealed trophies on the 55-trophy list." },
+      { "n": 3, "site": "PlayStationTrophies", "title": "On the Spot Trophy in Grand Theft Auto VI", "url": "https://www.playstationtrophies.org/game/grand-theft-auto-6/trophy/on-the-spot.html", "snippet": "Official trophy page with first-unlock stats." }
+    ],
+    "stage": 4
+  }
+]

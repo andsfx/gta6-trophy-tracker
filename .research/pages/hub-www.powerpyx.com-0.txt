@@ -1,0 +1,143 @@
+URL: https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/
+TITLE: GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap
+
+[Show Search](#header-search-wrap)[Hide Search](#)
+
+[Home](https://www.powerpyx.com/) » [Game Guides](https://www.powerpyx.com/guide/) » [GTA 6 (Grand Theft Auto VI)](https://www.powerpyx.com/guide/gta-6-grand-theft-auto-vi/) » GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap
+
+# GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap
+
+by [PowerPyx](https://www.powerpyx.com/author/powerpyx/) [1 Comment](https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/#comments)
+
+## GTA 6 (Grand Theft Auto VI) Trophy Roadmap
+
+* **Estimated trophy difficulty**: 4/10
+* **Approximate amount of time to platinum**: 200 hours
+* **Offline Trophies**: 55 (1, 2, 6, 46)
+* **Online Trophies**: 0
+* **Number of missable trophies**: Potentially 1 –  [**Positive Mental Attitude**](#positive-mental-attitude) as the first meditation is missable in Chapter 1 (see note in Step 1)
+* **Glitched trophies**: 0
+* **Does difficulty affect trophies?**: No, there are no difficulty settings, it’s one and the same difficulty for everyone
+* **Hardest Trophy**:  A Long Road (attain [100% completion](https://www.powerpyx.com/gta-6-100-completion-checklist-guide/))
+* **Minimum Playthroughs**: 1
+* **PS4/PS5 Autopop, Save Transfer, Crossbuy:** No, game doesn’t have a PS4 version
+* **Free-Roam / Level Select after Story?:** There is still free-roam after the story, but no mission replay
+* **Do Cheats disable trophies?:** Yes, Cheats disable trophies and saving the game – see [Cheats List](https://www.powerpyx.com/gta-6-all-cheats/)
+* **New Game+ Mode?:** No
+* **Supports Manual Saves?:** Yes, 15 Manual Save Slots & 1 Autosave Slot – because there’s no mission replay it’s recommended to keep a save at the start and end of each chapter (10 saves), then rotate between the remaining 5 saves for your free-roam cleanup.
+* **Release Date:** November 19, 2026
+
+### Introduction
+
+Welcome to the GTA 6 (aka GTA VI, Grand Theft Auto VI) Trophy Guide! The trophy requirements are relatively lenient. There are no mission gold medals and no mission replay function. The biggest overall requirement is finishing the [100% Completion Checklist](https://www.powerpyx.com/gta-6-100-completion-checklist-guide/), but this doesn’t require everything. It’s closer to 60% true completion, with most side quests not being required, and collectibles only partially required. You only need to scan 200 of 277 Base Model Vehicles and study 100 of 255 Animals by looking at them through the binoculars. The story is divided into 5 Chapters and takes around 60-80 hours. After the story you continue in free-roam and everything needed for the 100% Checklist is still accessible. The gold medals for shooting ranges and racing challenges aren’t too difficult and you only need 70 of 80 Challenges, allowing to skip the hardest ones. Play the game however you like, do as much side content as you want and clean up the rest after the story.
+
+### Step 1: Finish Story + Complete Optional Missions, Scan Vehicles & Animals [60-80 Hours]
+
+Just finish the story and enjoy the game. The 100% Checklist isn’t viewable until after the story, but any progress you make during the story will already count toward it. Feel free to work on any side content you find or do it all after the story. There are no mission gold medals this time, so you don’t need to watch out for hidden objectives.
+
+**1 Potentially Missable Trophy:**
+
+* [**Positive Mental Attitude**](#positive-mental-attitude) (meditate at every spot across Leonida): there is 1 missable Meditation during Chapter 1 at Jason’s house. After [Chapter 1 – Main Mission: Down to Earth](https://www.powerpyx.com/gta-6-down-to-earth-walkthrough/), you can talk to Lucia in the kitchen in the morning, she will say “You know what I’m gonna do? Meditate”. She then goes to the balcony. Follow her and choose “Accept”. Then she shows you how to meditate. This meditation does increase the counter +1 in the Progress Menu but isn’t marked as a “Meditation Spot” like the rest, so is currently unclear if it’s required for the trophy or not. See [Meditation Locations](https://www.powerpyx.com/gta-6-all-meditation-spot-locations/).
+
+* **Optional Missions** – complete Optional Missions as they appear. Optional Missions include the purple icons and the black icons with pink letters (whereas main missions are pink icons with black letters). These often introduce you to new game features and you need to complete any 100 for the 100% Checklist.
+* **Scan Vehicles** – scan any new vehicles you come across using the Waink app by holding and then / . For 100% Completion you need to scan any 200 of the 277 base model vehicles. If you start early you will get it done naturally throughout the story. Also scan boats and aircraft.
+* **Study Animals** – study any new animals you come across using the binoculars. Hold  to select binoculars from weapon wheel, zoom in with and hold to study. For 100% Completion you need to study any 100 of 255 animals. Every breed of dog and cat counts separately too. Unlike Red Dead Redemption 2, you don’t need to hunt and skin the animals, just studying any 100 of them is enough.
+* **UI Notifications** – turn on all UI settings for progress & collectible notifications. This is helpful to keep track of new discoveries and how your actions affect your criminal profile.
+
+**Note regarding missable content (this doesn’t affect trophies):**
+
+There is a bunch of missable content, but it doesn’t impact trophies or 100% completion. Just for peace of mind so you know this won’t lock you out of platinum:
+
+* Many optional missions disappear after a while (black icons with pink letters). This doesn’t matter for trophies.
+* Some quest givers become temporarily unavailable during the story, for example Kenton who has a trophy. All trophy-related characters become available again later in the game so don’t worry about this. All trophy-related quest givers are still there after the story in free-roam.
+* Some fences (people you sell stolen goods to) become permanently unavailable. This doesn’t impact any trophies or 100% requirements as you gradually unlock new fences. The ones that disappear don’t have any quests.
+* A few magazine collectibles are in story buildings that become permanently inaccessible, but this doesn’t impact trophies as they also spawn in other locations and you don’t need all of them for trophies.
+* Some quests have an “hourglass icon” and are time-sensitive. They fail after a while but they are not relevant for trophies. If you do all quests as they appear you won’t have to worry about it.
+* Open world Strangers & Freaks are still there after the story. You don’t have to worry about these.
+* Criminal Profile only affects how police treat you. The lower your profile, the higher the chance they shoot at you on sight. You can do all content with a violent profile. However, the Irredeemable profile is permanent and should be avoided because cops will be more aggressive.
+* The relationship status of Jason/Lucia doesn’t matter for trophies.
+
+*In summary: just keep a look out for the Chapter 1 meditation and don’t worry about anything else.*
+
+**» [GTA 6 Full Walkthrough – All Missions](https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/)**
+
+### Step 2: 100% Completion Checklist & 70 of 80 Challenges [100 Hours]
+
+After the story you are returned to the open world and unlock the 100% Completion Checklist under Progress > Stats > 100% Completion.
+
+The requirements are very lenient. It’s closer to 60% true game completion. The majority of side quests aren’t needed at all. Many collectible types aren’t required and others are only partially required. The only tasks that require everything are Robberies, Underwater Discoveries, Shooting Ranges, Drone Races, Bret’s Quests. You only need 70 of 80 challenges for 100%, allowing you to skip the hardest ones.
+
+**»** **[GTA 6 100% Completion Checklist & Guide](https://www.powerpyx.com/gta-6-100-completion-checklist-guide/)** **» [GTA 6 All Challenges](https://www.powerpyx.com/gta-6-all-challenges-guide/)**
+
+### Step 3: Strangers & Freaks, Miscellaneous Cleanup [10 Hours]
+
+You should have most trophies automatically after finishing the 100% Completion Checklist. The Strangers & Freaks aren’t needed for 100% so you might still need to clean these up. If you have anything left you can clean it up quickly now.
+
+**»** **[GTA 6 All Strangers & Freaks (Side Missions)](https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/)**
+
+**Useful Tips, Tricks and Guides:**
+
+* **[GTA 6 Wiki & Strategy Guide](https://www.powerpyx.com/gta-6-grand-theft-auto-vi-wiki-strategy-guide/)**
+* [100% Guide & Checklist](https://www.powerpyx.com/gta-6-100-completion-checklist-guide/)
+* [Main Walkthrough – All Missions](https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/)
+* [Strangers & Freaks (Side Missions)](https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/)
+* [Cheats](https://www.powerpyx.com/gta-6-all-cheats/)
+* [Collectible Guide – Progress Database](https://www.powerpyx.com/gta-6-collectible-guide-progress-database/)
+* [Full World Map](https://www.powerpyx.com/gta-6-full-world-map-revealed/)
+* [Money Guide – How to Get Money Fast](https://www.powerpyx.com/gta-6-money-guide-how-to-get-money-fast/)
+* [Criminal Profile Explained](https://www.powerpyx.com/gta-6-criminal-profile-explained/)
+* [How to Get Ultimate Edition Rewards](https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/)
+* [How to Fast Travel](https://www.powerpyx.com/gta-6-how-to-fast-travel/)
+* [How to Get New Personal Car](https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/)
+* [How to Get Key Cloner](https://www.powerpyx.com/gta-6-how-to-get-key-cloner/)
+* [How to Play in First-Person View](https://www.powerpyx.com/gta-6-how-to-play-in-first-person-view/)
+* [How to Summon Vehicles](https://www.powerpyx.com/gta-6-how-to-summon-vehicles/)
+* [How to Switch Between Playing as Lucia & Jason](https://www.powerpyx.com/gta-6-how-to-switch-between-playing-as-lucia-jason/)
+* [How to Fence Stolen Goods](https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/)
+* [How to Increase Character Stats (Health, Cardio, Focus)](https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/)
+* [How to Get Body Armor](https://www.powerpyx.com/gta-6-how-to-equip-body-armor/)
+* [How to Get Parachute](https://www.powerpyx.com/gta-6-how-to-get-parachute/)
+
+[... middle omitted — see footer ...]
+
+| Little Boxes  Purchase all garage properties. |
+| There are 8 purchasable garages and 4 story-related garages. For this trophy you only need the 8 purchasable garages. They cost a total of $160,000. Garages become available for purchase after [Chapter 2 – Main Mission: Daily Driver (Steal the Crawler for Moses)](https://www.powerpyx.com/gta-6-daily-driver-steal-the-crawler-for-moses-walkthrough/). You will receive a notification that a new app has been installed on your phone, called Vice City Real Estate. You simply buy the garages through the phone app. A quick way to make money is to do robberies, especially later in Chapters 3-4 when you unlock higher-value robberies. **» [GTA 6 All 12 Garage Locations](https://www.powerpyx.com/gta-6-all-garage-locations/)** |
+| On the Spot  Register 10 vehicles to the Scooter Bros app. |
+| The Scooter Bros app is installed on your phone after [Chapter 2 – Main Mission: Moses (Take A Vehicle to Moses)](https://www.powerpyx.com/gta-6-moses-take-a-vehicle-to-moses-walkthrough/). This app allows you to register stolen vehicles and have them delivered to your location wherever you are. To register 10 vehicles you must buy enough garages first (see **Little Boxes**). Each garage adds 1 or more parking spots to register more vehicles. Then drive stolen vehicles to Moses in Port Gellhorn, in his garage click “Respray” and “Register”. You unlock Moses from the same mission that unlocks the Scooter Bros app. Initially, he only accepts vehicles without trackers. Later in Chapter 3 you can also register cars with Standard Trackers and register them at any  [Pay ‘n’ Spray](https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/). Registering the vehicles costs money. If you want to keep expenses low, go for cheap low-end cars and bikes. |
+
+[« PrevGTA 6 Full World Map Revealed](https://www.powerpyx.com/gta-6-full-world-map-revealed/)
+
+[Share](http://www.facebook.com/share.php?u=https%3A%2F%2Fwww.powerpyx.com%2Fgta-6-grand-theft-auto-vi-trophy-guide-roadmap%2F)
+
+[Tweet](https://twitter.com/share?original_referer=/&text=GTA+6+%28Grand+Theft+Auto+VI%29+Trophy+Guide+%26+Roadmap&url=https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/&via=PowerPyx)
+
+Shares 0
+
+### Comments
+
+1. [PowerPyx](https://www.powerpyx.com) says
+
+   One of the best games ever made! Enjoy 🙂
+
+   [Reply](#comment-77656)
+
+### Leave a Reply [Cancel reply](/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/#respond)
+
+* [Terms of Service](https://www.powerpyx.com/tos/)
+* [Privacy Policy](https://www.powerpyx.com/privacy/)
+* [Cookie Policy](https://www.powerpyx.com/cookies/)
+
+* [GTA 6 Cheats](https://www.powerpyx.com/gta-6-all-cheats/)
+* [GTA 6 100% Checklist](https://www.powerpyx.com/gta-6-100-completion-checklist-guide/)
+* [GTA 6 Walkthrough](https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/)
+* [GTA 6 Collectibles Database](https://www.powerpyx.com/gta-6-collectible-guide-progress-database/)
+
+* [YouTube](https://www.youtube.com/PowerPyx)
+* [Facebook](https://facebook.com/PowerPyx)
+* [Twitter](https://twitter.com/PowerPyx)
+
+──────── [TRUNCATED] ────────
+Showing 10,460 chars (head) + 3,095 chars (tail) of 58,218 total clean characters.
+Full text saved to: /home/ubuntu/.hermes/profiles/trophyv3/cache/web/www.powerpyx.com-95fc683977.md
+To read the omitted middle: read_file path="/home/ubuntu/.hermes/profiles/trophyv3/cache/web/www.powerpyx.com-95fc683977.md" offset=97 limit=200  (the file is the complete page; raise/lower offset to page through it).
+─────────────────────────────
