@@ -3,27 +3,42 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA VI - Trophy Guide &amp; Tracker</title>
+<meta name="description" content="Leonida Trophy Roadmap: the GTA VI PS5 trophy tracker with every step cited.">
+<title>Leonida Trophy Roadmap - GTA VI</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="app">
   <header class="top">
-    <a class="brand" href="#tracker">
-      <span class="brand-main">GTA<span class="brand-vi">VI</span></span>
-      <span class="brand-sub">Trophy Guide</span>
-    </a>
-    <div class="brand-tag">Platinum roadmap &middot; Leonida edition</div>
-    <nav class="nav">
+    <div class="brand-row">
+      <div class="brand">
+        <span class="brand-main">Leonida Trophy Roadmap</span>
+        <span class="brand-sub">GTA VI - PS5 - 55 trophies - every step cited</span>
+      </div>
+      <div class="progress-box">
+        <div class="progress-meta"><b id="progress-num">0/55</b> earned</div>
+        <div class="bar"><div class="bar-fill" id="progress-fill"></div></div>
+      </div>
+      <div class="head-controls">
+        <label class="shield" id="shield-wrap" title="Spoiler shield: unearned story trophies show as ???">
+          <input type="checkbox" id="spoiler-toggle"><span>Shield</span>
+        </label>
+        <button type="button" id="export-btn" class="hbtn" title="Download your progress as JSON">Export</button>
+        <label class="hbtn filebtn" title="Load a progress JSON"><span>Import</span><input type="file" id="import-file" accept="application/json,.json"></label>
+      </div>
+    </div>
+    <div class="audit-bar" id="audit-bar" role="status"></div>
+    <nav class="nav" role="navigation">
       <a href="#tracker" class="nav-link" data-nav="tracker">Tracker</a>
       <a href="#roadmap" class="nav-link" data-nav="roadmap">Roadmap</a>
       <a href="#settings" class="nav-link" data-nav="settings">Settings</a>
+      <span class="nav-hint">Every claim carries a numbered citation - click a red [n] to highlight its source</span>
     </nav>
   </header>
   <main id="view" class="view"></main>
   <footer class="foot">
-    <span>Offline guide &middot; 55 official trophies</span>
-    <span class="foot-right">Save your progress in this browser &middot; export anytime</span>
+    <span>Offline - deterministic - no network requests - progress stays in this browser</span>
+    <span>Leonida Trophy Roadmap v3 - citation depth edition</span>
   </footer>
 </div>
 <script type="module" src="app.js"></script>
